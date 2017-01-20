@@ -43,4 +43,4 @@ class Match(models.Model):
     tournament = models.ForeignKey(Tournament, blank=False, null=False)
 
     def __str__(self):
-        return "%s - %s (%d - %d)" % (self.home, self.away, self.home_score, self.away_score)
+        return "%s - %s (%d - %d) - %s" % (self.home, self.away, self.home_score, self.away_score, self.status)
