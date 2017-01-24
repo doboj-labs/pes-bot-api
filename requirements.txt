@@ -3,3 +3,4 @@ django-choices==1.4.4
 djangorestframework==3.5.3
 six==1.10.0
 gunicorn==19.6.0
+dj-database-url==0.4.1
