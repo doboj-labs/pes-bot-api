@@ -1,3 +1,4 @@
+Arsenal fc -Arsenal fc
 East Dorsetshire-AFC Bournemouth
 Lancashire Claret-Burnley
 London FC-Chelsea
@@ -5,6 +6,7 @@ South Norwood-Crystal Palace
 Merseyside Blue-Everton
 Yorkshire Orange-Hull City
 East Midlands-Leicester City
+Liverpool fc -Liverpool fc
 Man Blue-Manchester City
 Man Red-Manchester United
 Teeside-Middlesbrough
@@ -42,6 +44,8 @@ LN Azure Blue White-Wigan Athletic
 WM Gold-Wolverhampton Wanderers
 PV Sky Blue White-Alaves
 PV White Red-Athletic Bilbao
+Club Atletico De Madrid -Club Atletico De Madrid
+FC Barcelona -FC Barcelona
 GA Cyan-Celta Vigo
 GA Blue Whites-Derpotivo La Coruna
 PV Blue Red-Eibar
@@ -80,8 +84,26 @@ CN White Blue-Tenerife
 MC Navy Blue-UCAM Murcia
 CL Purple-Valladolid
 AR White Blue-Zaragoza
+Atlanta-Atlanta
+Bologna FC 1909-Bologna FC 1909
+Cagliari Calcid-Cagliari Calcid
+AC Chievo Verona-AC Chievo Verona
+FC Crontone-FC Crontone
+Empoli FC-Empoli FC
+ACF Fiorentina-ACF Fiorentina
+Genda CFC-Genda CFC
+Internazionale-Internazionale
 PM Black White-Juventus
+SS Lazio-SS Lazio
+AC Milan-AC Milan
+SSC Napoli-SSC Napoli
+US Citta Di Palermo-US Citta Di Palermo
+Delfin Pascara 1936-Delfin Pascara 1936
+AS Roma-AS Roma
+UC Sampdoria-UC Sampdoria
 Sansagiulo-Sassuolo
+Torino FC-Torino FC
+Udinese Calcio-Udinese Calcio
 MA Zebra-Ascoli
 Alvegiaro-Avellino
 Bagnaroni-Bari
@@ -104,8 +126,35 @@ Drepanumese-Trapani
 DL Blue-Verona
 Vocchaioni-Vicenza
 LR White Blue-Virtus Entella
+Angers-Angers
+SC Bastia-SC Bastia
+Bordeaux-Bordeaux
+Stade Malherba Caen-Stade Malherba Caen
+Dijon FCO-Dijon FCO
+EN Avant Guingap-EN Avant Guingap
+Lille Osc Metropole-Lille Osc Metropole
+FC Lorient-FC Lorient
+Olympique Lyonnais-Olympique Lyonnais
+Olympique De Marseille-Olympique De Marseille
+FC Metz-FC Metz
+AS Monaco FC-AS Monaco FC
+Montpelliar HSC-Montpelliar HSC
+AS Nancy Lorraine-AS Nancy Lorraine
+FC Nantes-FC Nantes
+OGC Nice Cote Dazur-OGC Nice Cote Dazur
+Paris Saint Germain FC-Paris Saint Germain FC
+Stade Rennais FC-Stade Rennais FC
+AS Saint Etienne-AS Saint Etienne
+Toulouse FC-Toulouse FC
+AC Ajaccio-AC Ajaccio
+Amiens SC-Amiens SC
+Auxerre-Auxerre
+Bourg En Bresse 01-Bourg En Bresse 01
+Stade Brestois 29-Stade Brestois 29
+Clarmont Foot 64-Clarmont Foot 64
 Arimelcao-Arouca
 Blemotao-Belenenses
+SL Benfica-SL Benfica
 Borfecao-Boavista
 Bresigne-Braga
 TM Blue Red-Chaves
@@ -117,6 +166,8 @@ Nardimcol-Nacional
 Podefteza-Pacos de Ferreira
 DL Blue White-Porto
 Rovaneche-Rio Ave
+Sporting CP-Sportin CP
 BA Yellow Green-Tondela
 Visicutao-Vitoria de Guimaraes
 Verfolcao-Vitoria de Setubal
+BV Borrusia 09 Dortmund-BV Borrusia 09 Dortmund
