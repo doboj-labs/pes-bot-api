@@ -1,0 +1,122 @@
+East Dorsetshire-AFC Bournemouth
+Lancashire Claret-Burnley
+London FC-Chelsea
+South Norwood-Crystal Palace
+Merseyside Blue-Everton
+Yorkshire Orange-Hull City
+East Midlands-Leicester City
+Man Blue-Manchester City
+Man Red-Manchester United
+Teeside-Middlesbrough
+Hampshire Red-Southampton
+St Red-Stoke City
+Wearside-Sunderland
+West Glamorgan City-Swansea City
+North East London-Tottenham Hotspur
+Hertfordshire-Watford
+West Midlands Stripes-West Bromwich Albion
+East London-West Ham United
+West Midlands Village-Aston Villa
+SY Red-Barnsley
+West Midlands City-Birmingham City
+Lancashire Blue-Blackburn Rovers
+Hounslow-Brentford
+East Sussex-Brighton and Hove Albion
+SW Red-Bristol City
+ST Yellow-Burton Albion
+South Wales-Cardiff City
+Derbyshire-Derby County
+West London White-Fulham
+West Yorkshire Town-Huddersfield
+East Anglia Town-Ipswich Town
+Yorkshire Whites-Leeds United
+Tyneside-Newcastle United
+Norfolk City-Norwich City
+Notts Reds-Nottingham Forest
+LN White-Preston North End
+North West London-Queens Park Rangers
+Berkshire Blues-Reading
+Yorkshire Reds-Rotherham United
+South Yorkshire Blues-Sheffield Wednesday
+LN Azure Blue White-Wigan Athletic
+WM Gold-Wolverhampton Wanderers
+PV Sky Blue White-Alaves
+PV White Red-Athletic Bilbao
+GA Cyan-Celta Vigo
+GA Blue Whites-Derpotivo La Coruna
+PV Blue Red-Eibar
+CT Blue White-Espanyol
+AN Red White-Granada
+CN Yellow Blue-Las Palmas
+MD Blue White-Leganes
+AN Cyan White-Malaga
+NC Red-Osasuna
+AN Green White-Real Betis
+MD White-Real Madrid
+PV Blue White-Real Socedad
+AN White Red-Sevilla
+AS Red White-Sporting Gijon
+ED White Orange-Valencia
+ED Yellow-Villareal
+MD Canary Yellow-Alcorcon
+AN Scarlet White-Almeria
+AN Yellow Blue-Cadiz
+AN Viridian White-Cordoba
+ED White Green-Elche
+MD Cobalt Blue-Getafe
+CT Red-Gimnastic
+Ct Carmine White-Gorona
+AR Burgundy Blue-Huesca
+ED Blue Burgundy-Levante
+GA Red White-Lugo
+IB Red Black-Mallorca
+CL Red Black-Mirandes
+CL Red-Numancia
+AS Blue-Oviedo
+MD Scarlet White-Rao Vallecano
+CT Red Black-Reus Deportiu
+AN White Red B-Sevilla Atletico
+CN White Blue-Tenerife
+MC Navy Blue-UCAM Murcia
+CL Purple-Valladolid
+AR White Blue-Zaragoza
+PM Black White-Juventus
+Sansagiulo-Sassuolo
+MA Zebra-Ascoli
+Alvegiaro-Avellino
+Bagnaroni-Bari
+CM Yellow Red-Benevento
+Brutie-Brescia
+ER White Red-Carpi
+ER Black White-Cesena
+DL Crimson-Cittadella
+TI Yellow Blue-Frosinone
+Litolizano-Latina
+PM Blue White-Novara
+Prastogna-Perugia
+TO Blue Black-Pisa
+Pailamundoveli-Pro Vercelli
+CM Burgundy-Salernitana
+ER Sky Blue-SPAL
+Spremonese-Spezia
+Teccarina-Ternana
+Drepanumese-Trapani
+DL Blue-Verona
+Vocchaioni-Vicenza
+LR White Blue-Virtus Entella
+Arimelcao-Arouca
+Blemotao-Belenenses
+Borfecao-Boavista
+Bresigne-Braga
+TM Blue Red-Chaves
+Estralpao-Estoril
+DL Azure Blue-Feirense
+Maseadeira-Maritimo
+Meraszilho-Moreirense
+Nardimcol-Nacional
+Podefteza-Pacos de Ferreira
+DL Blue White-Porto
+Rovaneche-Rio Ave
+BA Yellow Green-Tondela
+Visicutao-Vitoria de Guimaraes
+Verfolcao-Vitoria de Setubal
