@@ -4,7 +4,6 @@ from rest_framework.decorators import api_view
 from rest_framework import viewsets
 from api.serializers import TournamentSerializer, MatchSerializer
 from api.models import Tournament, Match, MatchStatus
-import simplejson as json
 
 
 class TournamentViewSet(viewsets.ModelViewSet):
