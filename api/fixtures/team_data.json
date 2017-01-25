@@ -4,8 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "Arsenal fc ",
-      "real_name": "Arsenal fc",
-      "slug": "Ars"
+      "real_name": "Arsenal fc"
     }
   },
   {
@@ -13,8 +12,7 @@
     "pk": 2,
     "fields": {
       "name": "East Dorsetshire",
-      "real_name": "AFC Bournemouth",
-      "slug": "Eas"
+      "real_name": "AFC Bournemouth"
     }
   },
   {
@@ -22,8 +20,7 @@
     "pk": 3,
     "fields": {
       "name": "Lancashire Claret",
-      "real_name": "Burnley",
-      "slug": "Lan"
+      "real_name": "Burnley"
     }
   },
   {
@@ -31,8 +28,7 @@
     "pk": 4,
     "fields": {
       "name": "London FC",
-      "real_name": "Chelsea",
-      "slug": "Lon"
+      "real_name": "Chelsea"
     }
   },
   {
@@ -40,8 +36,7 @@
     "pk": 5,
     "fields": {
       "name": "South Norwood",
-      "real_name": "Crystal Palace",
-      "slug": "Sou"
+      "real_name": "Crystal Palace"
     }
   },
   {
@@ -49,8 +44,7 @@
     "pk": 6,
     "fields": {
       "name": "Merseyside Blue",
-      "real_name": "Everton",
-      "slug": "Mer"
+      "real_name": "Everton"
     }
   },
   {
@@ -58,8 +52,7 @@
     "pk": 7,
     "fields": {
       "name": "Yorkshire Orange",
-      "real_name": "Hull City",
-      "slug": "Yor"
+      "real_name": "Hull City"
     }
   },
   {
@@ -67,8 +60,7 @@
     "pk": 8,
     "fields": {
       "name": "East Midlands",
-      "real_name": "Leicester City",
-      "slug": "Eas"
+      "real_name": "Leicester City"
     }
   },
   {
@@ -76,8 +68,7 @@
     "pk": 9,
     "fields": {
       "name": "Liverpool fc ",
-      "real_name": "Liverpool fc",
-      "slug": "Liv"
+      "real_name": "Liverpool fc"
     }
   },
   {
@@ -85,8 +76,7 @@
     "pk": 10,
     "fields": {
       "name": "Man Blue",
-      "real_name": "Manchester City",
-      "slug": "Man"
+      "real_name": "Manchester City"
     }
   },
   {
@@ -94,8 +84,7 @@
     "pk": 11,
     "fields": {
       "name": "Man Red",
-      "real_name": "Manchester United",
-      "slug": "Man"
+      "real_name": "Manchester United"
     }
   },
   {
@@ -103,8 +92,7 @@
     "pk": 12,
     "fields": {
       "name": "Teeside",
-      "real_name": "Middlesbrough",
-      "slug": "Tee"
+      "real_name": "Middlesbrough"
     }
   },
   {
@@ -112,8 +100,7 @@
     "pk": 13,
     "fields": {
       "name": "Hampshire Red",
-      "real_name": "Southampton",
-      "slug": "Ham"
+      "real_name": "Southampton"
     }
   },
   {
@@ -121,8 +108,7 @@
     "pk": 14,
     "fields": {
       "name": "St Red",
-      "real_name": "Stoke City",
-      "slug": "StR"
+      "real_name": "Stoke City"
     }
   },
   {
@@ -130,8 +116,7 @@
     "pk": 15,
     "fields": {
       "name": "Wearside",
-      "real_name": "Sunderland",
-      "slug": "Wea"
+      "real_name": "Sunderland"
     }
   },
   {
@@ -139,8 +124,7 @@
     "pk": 16,
     "fields": {
       "name": "West Glamorgan City",
-      "real_name": "Swansea City",
-      "slug": "Wes"
+      "real_name": "Swansea City"
     }
   },
   {
@@ -148,8 +132,7 @@
     "pk": 17,
     "fields": {
       "name": "North East London",
-      "real_name": "Tottenham Hotspur",
-      "slug": "Nor"
+      "real_name": "Tottenham Hotspur"
     }
   },
   {
@@ -157,8 +140,7 @@
     "pk": 18,
     "fields": {
       "name": "Hertfordshire",
-      "real_name": "Watford",
-      "slug": "Her"
+      "real_name": "Watford"
     }
   },
   {
@@ -166,8 +148,7 @@
     "pk": 19,
     "fields": {
       "name": "West Midlands Stripes",
-      "real_name": "West Bromwich Albion",
-      "slug": "Wes"
+      "real_name": "West Bromwich Albion"
     }
   },
   {
@@ -175,8 +156,7 @@
     "pk": 20,
     "fields": {
       "name": "East London",
-      "real_name": "West Ham United",
-      "slug": "Eas"
+      "real_name": "West Ham United"
     }
   },
   {
@@ -184,8 +164,7 @@
     "pk": 21,
     "fields": {
       "name": "West Midlands Village",
-      "real_name": "Aston Villa",
-      "slug": "Wes"
+      "real_name": "Aston Villa"
     }
   },
   {
@@ -193,8 +172,7 @@
     "pk": 22,
     "fields": {
       "name": "SY Red",
-      "real_name": "Barnsley",
-      "slug": "SYR"
+      "real_name": "Barnsley"
     }
   },
   {
@@ -202,8 +180,7 @@
     "pk": 23,
     "fields": {
       "name": "West Midlands City",
-      "real_name": "Birmingham City",
-      "slug": "Wes"
+      "real_name": "Birmingham City"
     }
   },
   {
@@ -211,8 +188,7 @@
     "pk": 24,
     "fields": {
       "name": "Lancashire Blue",
-      "real_name": "Blackburn Rovers",
-      "slug": "Lan"
+      "real_name": "Blackburn Rovers"
     }
   },
   {
@@ -220,8 +196,7 @@
     "pk": 25,
     "fields": {
       "name": "Hounslow",
-      "real_name": "Brentford",
-      "slug": "Hou"
+      "real_name": "Brentford"
     }
   },
   {
@@ -229,8 +204,7 @@
     "pk": 26,
     "fields": {
       "name": "East Sussex",
-      "real_name": "Brighton and Hove Albion",
-      "slug": "Eas"
+      "real_name": "Brighton and Hove Albion"
     }
   },
   {
@@ -238,8 +212,7 @@
     "pk": 27,
     "fields": {
       "name": "SW Red",
-      "real_name": "Bristol City",
-      "slug": "SWR"
+      "real_name": "Bristol City"
     }
   },
   {
@@ -247,8 +220,7 @@
     "pk": 28,
     "fields": {
       "name": "ST Yellow",
-      "real_name": "Burton Albion",
-      "slug": "STY"
+      "real_name": "Burton Albion"
     }
   },
   {
@@ -256,8 +228,7 @@
     "pk": 29,
     "fields": {
       "name": "South Wales",
-      "real_name": "Cardiff City",
-      "slug": "Sou"
+      "real_name": "Cardiff City"
     }
   },
   {
@@ -265,8 +236,7 @@
     "pk": 30,
     "fields": {
       "name": "Derbyshire",
-      "real_name": "Derby County",
-      "slug": "Der"
+      "real_name": "Derby County"
     }
   },
   {
@@ -274,8 +244,7 @@
     "pk": 31,
     "fields": {
       "name": "West London White",
-      "real_name": "Fulham",
-      "slug": "Wes"
+      "real_name": "Fulham"
     }
   },
   {
@@ -283,8 +252,7 @@
     "pk": 32,
     "fields": {
       "name": "West Yorkshire Town",
-      "real_name": "Huddersfield",
-      "slug": "Wes"
+      "real_name": "Huddersfield"
     }
   },
   {
@@ -292,8 +260,7 @@
     "pk": 33,
     "fields": {
       "name": "East Anglia Town",
-      "real_name": "Ipswich Town",
-      "slug": "Eas"
+      "real_name": "Ipswich Town"
     }
   },
   {
@@ -301,8 +268,7 @@
     "pk": 34,
     "fields": {
       "name": "Yorkshire Whites",
-      "real_name": "Leeds United",
-      "slug": "Yor"
+      "real_name": "Leeds United"
     }
   },
   {
@@ -310,8 +276,7 @@
     "pk": 35,
     "fields": {
       "name": "Tyneside",
-      "real_name": "Newcastle United",
-      "slug": "Tyn"
+      "real_name": "Newcastle United"
     }
   },
   {
@@ -319,8 +284,7 @@
     "pk": 36,
     "fields": {
       "name": "Norfolk City",
-      "real_name": "Norwich City",
-      "slug": "Nor"
+      "real_name": "Norwich City"
     }
   },
   {
@@ -328,8 +292,7 @@
     "pk": 37,
     "fields": {
       "name": "Notts Reds",
-      "real_name": "Nottingham Forest",
-      "slug": "Not"
+      "real_name": "Nottingham Forest"
     }
   },
   {
@@ -337,8 +300,7 @@
     "pk": 38,
     "fields": {
       "name": "LN White",
-      "real_name": "Preston North End",
-      "slug": "LNW"
+      "real_name": "Preston North End"
     }
   },
   {
@@ -346,8 +308,7 @@
     "pk": 39,
     "fields": {
       "name": "North West London",
-      "real_name": "Queens Park Rangers",
-      "slug": "Nor"
+      "real_name": "Queens Park Rangers"
     }
   },
   {
@@ -355,8 +316,7 @@
     "pk": 40,
     "fields": {
       "name": "Berkshire Blues",
-      "real_name": "Reading",
-      "slug": "Ber"
+      "real_name": "Reading"
     }
   },
   {
@@ -364,8 +324,7 @@
     "pk": 41,
     "fields": {
       "name": "Yorkshire Reds",
-      "real_name": "Rotherham United",
-      "slug": "Yor"
+      "real_name": "Rotherham United"
     }
   },
   {
@@ -373,8 +332,7 @@
     "pk": 42,
     "fields": {
       "name": "South Yorkshire Blues",
-      "real_name": "Sheffield Wednesday",
-      "slug": "Sou"
+      "real_name": "Sheffield Wednesday"
     }
   },
   {
@@ -382,8 +340,7 @@
     "pk": 43,
     "fields": {
       "name": "LN Azure Blue White",
-      "real_name": "Wigan Athletic",
-      "slug": "LNA"
+      "real_name": "Wigan Athletic"
     }
   },
   {
@@ -391,8 +348,7 @@
     "pk": 44,
     "fields": {
       "name": "WM Gold",
-      "real_name": "Wolverhampton Wanderers",
-      "slug": "WMG"
+      "real_name": "Wolverhampton Wanderers"
     }
   },
   {
@@ -400,8 +356,7 @@
     "pk": 45,
     "fields": {
       "name": "PV Sky Blue White",
-      "real_name": "Alaves",
-      "slug": "PVS"
+      "real_name": "Alaves"
     }
   },
   {
@@ -409,8 +364,7 @@
     "pk": 46,
     "fields": {
       "name": "PV White Red",
-      "real_name": "Athletic Bilbao",
-      "slug": "PVW"
+      "real_name": "Athletic Bilbao"
     }
   },
   {
@@ -418,8 +372,7 @@
     "pk": 47,
     "fields": {
       "name": "Club Atletico De Madrid ",
-      "real_name": "Club Atletico De Madrid",
-      "slug": "Clu"
+      "real_name": "Club Atletico De Madrid"
     }
   },
   {
@@ -427,8 +380,7 @@
     "pk": 48,
     "fields": {
       "name": "FC Barcelona ",
-      "real_name": "FC Barcelona",
-      "slug": "FCB"
+      "real_name": "FC Barcelona"
     }
   },
   {
@@ -436,8 +388,7 @@
     "pk": 49,
     "fields": {
       "name": "GA Cyan",
-      "real_name": "Celta Vigo",
-      "slug": "GAC"
+      "real_name": "Celta Vigo"
     }
   },
   {
@@ -445,8 +396,7 @@
     "pk": 50,
     "fields": {
       "name": "GA Blue Whites",
-      "real_name": "Derpotivo La Coruna",
-      "slug": "GAB"
+      "real_name": "Derpotivo La Coruna"
     }
   },
   {
@@ -454,8 +404,7 @@
     "pk": 51,
     "fields": {
       "name": "PV Blue Red",
-      "real_name": "Eibar",
-      "slug": "PVB"
+      "real_name": "Eibar"
     }
   },
   {
@@ -463,8 +412,7 @@
     "pk": 52,
     "fields": {
       "name": "CT Blue White",
-      "real_name": "Espanyol",
-      "slug": "CTB"
+      "real_name": "Espanyol"
     }
   },
   {
@@ -472,8 +420,7 @@
     "pk": 53,
     "fields": {
       "name": "AN Red White",
-      "real_name": "Granada",
-      "slug": "ANR"
+      "real_name": "Granada"
     }
   },
   {
@@ -481,8 +428,7 @@
     "pk": 54,
     "fields": {
       "name": "CN Yellow Blue",
-      "real_name": "Las Palmas",
-      "slug": "CNY"
+      "real_name": "Las Palmas"
     }
   },
   {
@@ -490,8 +436,7 @@
     "pk": 55,
     "fields": {
       "name": "MD Blue White",
-      "real_name": "Leganes",
-      "slug": "MDB"
+      "real_name": "Leganes"
     }
   },
   {
@@ -499,8 +444,7 @@
     "pk": 56,
     "fields": {
       "name": "AN Cyan White",
-      "real_name": "Malaga",
-      "slug": "ANC"
+      "real_name": "Malaga"
     }
   },
   {
@@ -508,8 +452,7 @@
     "pk": 57,
     "fields": {
       "name": "NC Red",
-      "real_name": "Osasuna",
-      "slug": "NCR"
+      "real_name": "Osasuna"
     }
   },
   {
@@ -517,8 +460,7 @@
     "pk": 58,
     "fields": {
       "name": "AN Green White",
-      "real_name": "Real Betis",
-      "slug": "ANG"
+      "real_name": "Real Betis"
     }
   },
   {
@@ -526,8 +468,7 @@
     "pk": 59,
     "fields": {
       "name": "MD White",
-      "real_name": "Real Madrid",
-      "slug": "MDW"
+      "real_name": "Real Madrid"
     }
   },
   {
@@ -535,8 +476,7 @@
     "pk": 60,
     "fields": {
       "name": "PV Blue White",
-      "real_name": "Real Socedad",
-      "slug": "PVB"
+      "real_name": "Real Socedad"
     }
   },
   {
@@ -544,8 +484,7 @@
     "pk": 61,
     "fields": {
       "name": "AN White Red",
-      "real_name": "Sevilla",
-      "slug": "ANW"
+      "real_name": "Sevilla"
     }
   },
   {
@@ -553,8 +492,7 @@
     "pk": 62,
     "fields": {
       "name": "AS Red White",
-      "real_name": "Sporting Gijon",
-      "slug": "ASR"
+      "real_name": "Sporting Gijon"
     }
   },
   {
@@ -562,8 +500,7 @@
     "pk": 63,
     "fields": {
       "name": "ED White Orange",
-      "real_name": "Valencia",
-      "slug": "EDW"
+      "real_name": "Valencia"
     }
   },
   {
@@ -571,8 +508,7 @@
     "pk": 64,
     "fields": {
       "name": "ED Yellow",
-      "real_name": "Villareal",
-      "slug": "EDY"
+      "real_name": "Villareal"
     }
   },
   {
@@ -580,8 +516,7 @@
     "pk": 65,
     "fields": {
       "name": "MD Canary Yellow",
-      "real_name": "Alcorcon",
-      "slug": "MDC"
+      "real_name": "Alcorcon"
     }
   },
   {
@@ -589,8 +524,7 @@
     "pk": 66,
     "fields": {
       "name": "AN Scarlet White",
-      "real_name": "Almeria",
-      "slug": "ANS"
+      "real_name": "Almeria"
     }
   },
   {
@@ -598,8 +532,7 @@
     "pk": 67,
     "fields": {
       "name": "AN Yellow Blue",
-      "real_name": "Cadiz",
-      "slug": "ANY"
+      "real_name": "Cadiz"
     }
   },
   {
@@ -607,8 +540,7 @@
     "pk": 68,
     "fields": {
       "name": "AN Viridian White",
-      "real_name": "Cordoba",
-      "slug": "ANV"
+      "real_name": "Cordoba"
     }
   },
   {
@@ -616,8 +548,7 @@
     "pk": 69,
     "fields": {
       "name": "ED White Green",
-      "real_name": "Elche",
-      "slug": "EDW"
+      "real_name": "Elche"
     }
   },
   {
@@ -625,8 +556,7 @@
     "pk": 70,
     "fields": {
       "name": "MD Cobalt Blue",
-      "real_name": "Getafe",
-      "slug": "MDC"
+      "real_name": "Getafe"
     }
   },
   {
@@ -634,8 +564,7 @@
     "pk": 71,
     "fields": {
       "name": "CT Red",
-      "real_name": "Gimnastic",
-      "slug": "CTR"
+      "real_name": "Gimnastic"
     }
   },
   {
@@ -643,8 +572,7 @@
     "pk": 72,
     "fields": {
       "name": "Ct Carmine White",
-      "real_name": "Gorona",
-      "slug": "CtC"
+      "real_name": "Gorona"
     }
   },
   {
@@ -652,8 +580,7 @@
     "pk": 73,
     "fields": {
       "name": "AR Burgundy Blue",
-      "real_name": "Huesca",
-      "slug": "ARB"
+      "real_name": "Huesca"
     }
   },
   {
@@ -661,8 +588,7 @@
     "pk": 74,
     "fields": {
       "name": "ED Blue Burgundy",
-      "real_name": "Levante",
-      "slug": "EDB"
+      "real_name": "Levante"
     }
   },
   {
@@ -670,8 +596,7 @@
     "pk": 75,
     "fields": {
       "name": "GA Red White",
-      "real_name": "Lugo",
-      "slug": "GAR"
+      "real_name": "Lugo"
     }
   },
   {
@@ -679,8 +604,7 @@
     "pk": 76,
     "fields": {
       "name": "IB Red Black",
-      "real_name": "Mallorca",
-      "slug": "IBR"
+      "real_name": "Mallorca"
     }
   },
   {
@@ -688,8 +612,7 @@
     "pk": 77,
     "fields": {
       "name": "CL Red Black",
-      "real_name": "Mirandes",
-      "slug": "CLR"
+      "real_name": "Mirandes"
     }
   },
   {
@@ -697,8 +620,7 @@
     "pk": 78,
     "fields": {
       "name": "CL Red",
-      "real_name": "Numancia",
-      "slug": "CLR"
+      "real_name": "Numancia"
     }
   },
   {
@@ -706,8 +628,7 @@
     "pk": 79,
     "fields": {
       "name": "AS Blue",
-      "real_name": "Oviedo",
-      "slug": "ASB"
+      "real_name": "Oviedo"
     }
   },
   {
@@ -715,8 +636,7 @@
     "pk": 80,
     "fields": {
       "name": "MD Scarlet White",
-      "real_name": "Rao Vallecano",
-      "slug": "MDS"
+      "real_name": "Rao Vallecano"
     }
   },
   {
@@ -724,8 +644,7 @@
     "pk": 81,
     "fields": {
       "name": "CT Red Black",
-      "real_name": "Reus Deportiu",
-      "slug": "CTR"
+      "real_name": "Reus Deportiu"
     }
   },
   {
@@ -733,8 +652,7 @@
     "pk": 82,
     "fields": {
       "name": "AN White Red B",
-      "real_name": "Sevilla Atletico",
-      "slug": "ANW"
+      "real_name": "Sevilla Atletico"
     }
   },
   {
@@ -742,8 +660,7 @@
     "pk": 83,
     "fields": {
       "name": "CN White Blue",
-      "real_name": "Tenerife",
-      "slug": "CNW"
+      "real_name": "Tenerife"
     }
   },
   {
@@ -751,8 +668,7 @@
     "pk": 84,
     "fields": {
       "name": "MC Navy Blue",
-      "real_name": "UCAM Murcia",
-      "slug": "MCN"
+      "real_name": "UCAM Murcia"
     }
   },
   {
@@ -760,8 +676,7 @@
     "pk": 85,
     "fields": {
       "name": "CL Purple",
-      "real_name": "Valladolid",
-      "slug": "CLP"
+      "real_name": "Valladolid"
     }
   },
   {
@@ -769,8 +684,7 @@
     "pk": 86,
     "fields": {
       "name": "AR White Blue",
-      "real_name": "Zaragoza",
-      "slug": "ARW"
+      "real_name": "Zaragoza"
     }
   },
   {
@@ -778,8 +692,7 @@
     "pk": 87,
     "fields": {
       "name": "Atlanta",
-      "real_name": "Atlanta",
-      "slug": "Atl"
+      "real_name": "Atlanta"
     }
   },
   {
@@ -787,8 +700,7 @@
     "pk": 88,
     "fields": {
       "name": "Bologna FC 1909",
-      "real_name": "Bologna FC 1909",
-      "slug": "Bol"
+      "real_name": "Bologna FC 1909"
     }
   },
   {
@@ -796,8 +708,7 @@
     "pk": 89,
     "fields": {
       "name": "Cagliari Calcid",
-      "real_name": "Cagliari Calcid",
-      "slug": "Cag"
+      "real_name": "Cagliari Calcid"
     }
   },
   {
@@ -805,8 +716,7 @@
     "pk": 90,
     "fields": {
       "name": "AC Chievo Verona",
-      "real_name": "AC Chievo Verona",
-      "slug": "ACC"
+      "real_name": "AC Chievo Verona"
     }
   },
   {
@@ -814,8 +724,7 @@
     "pk": 91,
     "fields": {
       "name": "FC Crontone",
-      "real_name": "FC Crontone",
-      "slug": "FCC"
+      "real_name": "FC Crontone"
     }
   },
   {
@@ -823,8 +732,7 @@
     "pk": 92,
     "fields": {
       "name": "Empoli FC",
-      "real_name": "Empoli FC",
-      "slug": "Emp"
+      "real_name": "Empoli FC"
     }
   },
   {
@@ -832,8 +740,7 @@
     "pk": 93,
     "fields": {
       "name": "ACF Fiorentina",
-      "real_name": "ACF Fiorentina",
-      "slug": "ACF"
+      "real_name": "ACF Fiorentina"
     }
   },
   {
@@ -841,8 +748,7 @@
     "pk": 94,
     "fields": {
       "name": "Genda CFC",
-      "real_name": "Genda CFC",
-      "slug": "Gen"
+      "real_name": "Genda CFC"
     }
   },
   {
@@ -850,8 +756,7 @@
     "pk": 95,
     "fields": {
       "name": "Internazionale",
-      "real_name": "Internazionale",
-      "slug": "Int"
+      "real_name": "Internazionale"
     }
   },
   {
@@ -859,8 +764,7 @@
     "pk": 96,
     "fields": {
       "name": "PM Black White",
-      "real_name": "Juventus",
-      "slug": "PMB"
+      "real_name": "Juventus"
     }
   },
   {
@@ -868,8 +772,7 @@
     "pk": 97,
     "fields": {
       "name": "SS Lazio",
-      "real_name": "SS Lazio",
-      "slug": "SSL"
+      "real_name": "SS Lazio"
     }
   },
   {
@@ -877,8 +780,7 @@
     "pk": 98,
     "fields": {
       "name": "AC Milan",
-      "real_name": "AC Milan",
-      "slug": "ACM"
+      "real_name": "AC Milan"
     }
   },
   {
@@ -886,8 +788,7 @@
     "pk": 99,
     "fields": {
       "name": "SSC Napoli",
-      "real_name": "SSC Napoli",
-      "slug": "SSC"
+      "real_name": "SSC Napoli"
     }
   },
   {
@@ -895,8 +796,7 @@
     "pk": 100,
     "fields": {
       "name": "US Citta Di Palermo",
-      "real_name": "US Citta Di Palermo",
-      "slug": "USC"
+      "real_name": "US Citta Di Palermo"
     }
   },
   {
@@ -904,8 +804,7 @@
     "pk": 101,
     "fields": {
       "name": "Delfin Pascara 1936",
-      "real_name": "Delfin Pascara 1936",
-      "slug": "Del"
+      "real_name": "Delfin Pascara 1936"
     }
   },
   {
@@ -913,8 +812,7 @@
     "pk": 102,
     "fields": {
       "name": "AS Roma",
-      "real_name": "AS Roma",
-      "slug": "ASR"
+      "real_name": "AS Roma"
     }
   },
   {
@@ -922,8 +820,7 @@
     "pk": 103,
     "fields": {
       "name": "UC Sampdoria",
-      "real_name": "UC Sampdoria",
-      "slug": "UCS"
+      "real_name": "UC Sampdoria"
     }
   },
   {
@@ -931,8 +828,7 @@
     "pk": 104,
     "fields": {
       "name": "Sansagiulo",
-      "real_name": "Sassuolo",
-      "slug": "San"
+      "real_name": "Sassuolo"
     }
   },
   {
@@ -940,8 +836,7 @@
     "pk": 105,
     "fields": {
       "name": "Torino FC",
-      "real_name": "Torino FC",
-      "slug": "Tor"
+      "real_name": "Torino FC"
     }
   },
   {
@@ -949,8 +844,7 @@
     "pk": 106,
     "fields": {
       "name": "Udinese Calcio",
-      "real_name": "Udinese Calcio",
-      "slug": "Udi"
+      "real_name": "Udinese Calcio"
     }
   },
   {
@@ -958,8 +852,7 @@
     "pk": 107,
     "fields": {
       "name": "MA Zebra",
-      "real_name": "Ascoli",
-      "slug": "MAZ"
+      "real_name": "Ascoli"
     }
   },
   {
@@ -967,8 +860,7 @@
     "pk": 108,
     "fields": {
       "name": "Alvegiaro",
-      "real_name": "Avellino",
-      "slug": "Alv"
+      "real_name": "Avellino"
     }
   },
   {
@@ -976,8 +868,7 @@
     "pk": 109,
     "fields": {
       "name": "Bagnaroni",
-      "real_name": "Bari",
-      "slug": "Bag"
+      "real_name": "Bari"
     }
   },
   {
@@ -985,8 +876,7 @@
     "pk": 110,
     "fields": {
       "name": "CM Yellow Red",
-      "real_name": "Benevento",
-      "slug": "CMY"
+      "real_name": "Benevento"
     }
   },
   {
@@ -994,8 +884,7 @@
     "pk": 111,
     "fields": {
       "name": "Brutie",
-      "real_name": "Brescia",
-      "slug": "Bru"
+      "real_name": "Brescia"
     }
   },
   {
@@ -1003,8 +892,7 @@
     "pk": 112,
     "fields": {
       "name": "ER White Red",
-      "real_name": "Carpi",
-      "slug": "ERW"
+      "real_name": "Carpi"
     }
   },
   {
@@ -1012,8 +900,7 @@
     "pk": 113,
     "fields": {
       "name": "ER Black White",
-      "real_name": "Cesena",
-      "slug": "ERB"
+      "real_name": "Cesena"
     }
   },
   {
@@ -1021,8 +908,7 @@
     "pk": 114,
     "fields": {
       "name": "DL Crimson",
-      "real_name": "Cittadella",
-      "slug": "DLC"
+      "real_name": "Cittadella"
     }
   },
   {
@@ -1030,8 +916,7 @@
     "pk": 115,
     "fields": {
       "name": "TI Yellow Blue",
-      "real_name": "Frosinone",
-      "slug": "TIY"
+      "real_name": "Frosinone"
     }
   },
   {
@@ -1039,8 +924,7 @@
     "pk": 116,
     "fields": {
       "name": "Litolizano",
-      "real_name": "Latina",
-      "slug": "Lit"
+      "real_name": "Latina"
     }
   },
   {
@@ -1048,8 +932,7 @@
     "pk": 117,
     "fields": {
       "name": "PM Blue White",
-      "real_name": "Novara",
-      "slug": "PMB"
+      "real_name": "Novara"
     }
   },
   {
@@ -1057,8 +940,7 @@
     "pk": 118,
     "fields": {
       "name": "Prastogna",
-      "real_name": "Perugia",
-      "slug": "Pra"
+      "real_name": "Perugia"
     }
   },
   {
@@ -1066,8 +948,7 @@
     "pk": 119,
     "fields": {
       "name": "TO Blue Black",
-      "real_name": "Pisa",
-      "slug": "TOB"
+      "real_name": "Pisa"
     }
   },
   {
@@ -1075,8 +956,7 @@
     "pk": 120,
     "fields": {
       "name": "Pailamundoveli",
-      "real_name": "Pro Vercelli",
-      "slug": "Pai"
+      "real_name": "Pro Vercelli"
     }
   },
   {
@@ -1084,8 +964,7 @@
     "pk": 121,
     "fields": {
       "name": "CM Burgundy",
-      "real_name": "Salernitana",
-      "slug": "CMB"
+      "real_name": "Salernitana"
     }
   },
   {
@@ -1093,8 +972,7 @@
     "pk": 122,
     "fields": {
       "name": "ER Sky Blue",
-      "real_name": "SPAL",
-      "slug": "ERS"
+      "real_name": "SPAL"
     }
   },
   {
@@ -1102,8 +980,7 @@
     "pk": 123,
     "fields": {
       "name": "Spremonese",
-      "real_name": "Spezia",
-      "slug": "Spr"
+      "real_name": "Spezia"
     }
   },
   {
@@ -1111,8 +988,7 @@
     "pk": 124,
     "fields": {
       "name": "Teccarina",
-      "real_name": "Ternana",
-      "slug": "Tec"
+      "real_name": "Ternana"
     }
   },
   {
@@ -1120,8 +996,7 @@
     "pk": 125,
     "fields": {
       "name": "Drepanumese",
-      "real_name": "Trapani",
-      "slug": "Dre"
+      "real_name": "Trapani"
     }
   },
   {
@@ -1129,8 +1004,7 @@
     "pk": 126,
     "fields": {
       "name": "DL Blue",
-      "real_name": "Verona",
-      "slug": "DLB"
+      "real_name": "Verona"
     }
   },
   {
@@ -1138,8 +1012,7 @@
     "pk": 127,
     "fields": {
       "name": "Vocchaioni",
-      "real_name": "Vicenza",
-      "slug": "Voc"
+      "real_name": "Vicenza"
     }
   },
   {
@@ -1147,8 +1020,7 @@
     "pk": 128,
     "fields": {
       "name": "LR White Blue",
-      "real_name": "Virtus Entella",
-      "slug": "LRW"
+      "real_name": "Virtus Entella"
     }
   },
   {
@@ -1156,8 +1028,7 @@
     "pk": 129,
     "fields": {
       "name": "Angers",
-      "real_name": "Angers",
-      "slug": "Ang"
+      "real_name": "Angers"
     }
   },
   {
@@ -1165,8 +1036,7 @@
     "pk": 130,
     "fields": {
       "name": "SC Bastia",
-      "real_name": "SC Bastia",
-      "slug": "SCB"
+      "real_name": "SC Bastia"
     }
   },
   {
@@ -1174,8 +1044,7 @@
     "pk": 131,
     "fields": {
       "name": "Bordeaux",
-      "real_name": "Bordeaux",
-      "slug": "Bor"
+      "real_name": "Bordeaux"
     }
   },
   {
@@ -1183,8 +1052,7 @@
     "pk": 132,
     "fields": {
       "name": "Stade Malherba Caen",
-      "real_name": "Stade Malherba Caen",
-      "slug": "Sta"
+      "real_name": "Stade Malherba Caen"
     }
   },
   {
@@ -1192,8 +1060,7 @@
     "pk": 133,
     "fields": {
       "name": "Dijon FCO",
-      "real_name": "Dijon FCO",
-      "slug": "Dij"
+      "real_name": "Dijon FCO"
     }
   },
   {
@@ -1201,8 +1068,7 @@
     "pk": 134,
     "fields": {
       "name": "EN Avant Guingap",
-      "real_name": "EN Avant Guingap",
-      "slug": "ENA"
+      "real_name": "EN Avant Guingap"
     }
   },
   {
@@ -1210,8 +1076,7 @@
     "pk": 135,
     "fields": {
       "name": "Lille Osc Metropole",
-      "real_name": "Lille Osc Metropole",
-      "slug": "Lil"
+      "real_name": "Lille Osc Metropole"
     }
   },
   {
@@ -1219,8 +1084,7 @@
     "pk": 136,
     "fields": {
       "name": "FC Lorient",
-      "real_name": "FC Lorient",
-      "slug": "FCL"
+      "real_name": "FC Lorient"
     }
   },
   {
@@ -1228,8 +1092,7 @@
     "pk": 137,
     "fields": {
       "name": "Olympique Lyonnais",
-      "real_name": "Olympique Lyonnais",
-      "slug": "Oly"
+      "real_name": "Olympique Lyonnais"
     }
   },
   {
@@ -1237,8 +1100,7 @@
     "pk": 138,
     "fields": {
       "name": "Olympique De Marseille",
-      "real_name": "Olympique De Marseille",
-      "slug": "Oly"
+      "real_name": "Olympique De Marseille"
     }
   },
   {
@@ -1246,8 +1108,7 @@
     "pk": 139,
     "fields": {
       "name": "FC Metz",
-      "real_name": "FC Metz",
-      "slug": "FCM"
+      "real_name": "FC Metz"
     }
   },
   {
@@ -1255,8 +1116,7 @@
     "pk": 140,
     "fields": {
       "name": "AS Monaco FC",
-      "real_name": "AS Monaco FC",
-      "slug": "ASM"
+      "real_name": "AS Monaco FC"
     }
   },
   {
@@ -1264,8 +1124,7 @@
     "pk": 141,
     "fields": {
       "name": "Montpelliar HSC",
-      "real_name": "Montpelliar HSC",
-      "slug": "Mon"
+      "real_name": "Montpelliar HSC"
     }
   },
   {
@@ -1273,8 +1132,7 @@
     "pk": 142,
     "fields": {
       "name": "AS Nancy Lorraine",
-      "real_name": "AS Nancy Lorraine",
-      "slug": "ASN"
+      "real_name": "AS Nancy Lorraine"
     }
   },
   {
@@ -1282,8 +1140,7 @@
     "pk": 143,
     "fields": {
       "name": "FC Nantes",
-      "real_name": "FC Nantes",
-      "slug": "FCN"
+      "real_name": "FC Nantes"
     }
   },
   {
@@ -1291,8 +1148,7 @@
     "pk": 144,
     "fields": {
       "name": "OGC Nice Cote Dazur",
-      "real_name": "OGC Nice Cote Dazur",
-      "slug": "OGC"
+      "real_name": "OGC Nice Cote Dazur"
     }
   },
   {
@@ -1300,8 +1156,7 @@
     "pk": 145,
     "fields": {
       "name": "Paris Saint Germain FC",
-      "real_name": "Paris Saint Germain FC",
-      "slug": "Par"
+      "real_name": "Paris Saint Germain FC"
     }
   },
   {
@@ -1309,8 +1164,7 @@
     "pk": 146,
     "fields": {
       "name": "Stade Rennais FC",
-      "real_name": "Stade Rennais FC",
-      "slug": "Sta"
+      "real_name": "Stade Rennais FC"
     }
   },
   {
@@ -1318,8 +1172,7 @@
     "pk": 147,
     "fields": {
       "name": "AS Saint Etienne",
-      "real_name": "AS Saint Etienne",
-      "slug": "ASS"
+      "real_name": "AS Saint Etienne"
     }
   },
   {
@@ -1327,8 +1180,7 @@
     "pk": 148,
     "fields": {
       "name": "Toulouse FC",
-      "real_name": "Toulouse FC",
-      "slug": "Tou"
+      "real_name": "Toulouse FC"
     }
   },
   {
@@ -1336,8 +1188,7 @@
     "pk": 149,
     "fields": {
       "name": "AC Ajaccio",
-      "real_name": "AC Ajaccio",
-      "slug": "ACA"
+      "real_name": "AC Ajaccio"
     }
   },
   {
@@ -1345,8 +1196,7 @@
     "pk": 150,
     "fields": {
       "name": "Amiens SC",
-      "real_name": "Amiens SC",
-      "slug": "Ami"
+      "real_name": "Amiens SC"
     }
   },
   {
@@ -1354,8 +1204,7 @@
     "pk": 151,
     "fields": {
       "name": "Auxerre",
-      "real_name": "Auxerre",
-      "slug": "Aux"
+      "real_name": "Auxerre"
     }
   },
   {
@@ -1363,8 +1212,7 @@
     "pk": 152,
     "fields": {
       "name": "Bourg En Bresse 01",
-      "real_name": "Bourg En Bresse 01",
-      "slug": "Bou"
+      "real_name": "Bourg En Bresse 01"
     }
   },
   {
@@ -1372,8 +1220,7 @@
     "pk": 153,
     "fields": {
       "name": "Stade Brestois 29",
-      "real_name": "Stade Brestois 29",
-      "slug": "Sta"
+      "real_name": "Stade Brestois 29"
     }
   },
   {
@@ -1381,8 +1228,7 @@
     "pk": 154,
     "fields": {
       "name": "Clarmont Foot 64",
-      "real_name": "Clarmont Foot 64",
-      "slug": "Cla"
+      "real_name": "Clarmont Foot 64"
     }
   },
   {
@@ -1390,8 +1236,7 @@
     "pk": 155,
     "fields": {
       "name": "Arimelcao",
-      "real_name": "Arouca",
-      "slug": "Ari"
+      "real_name": "Arouca"
     }
   },
   {
@@ -1399,8 +1244,7 @@
     "pk": 156,
     "fields": {
       "name": "Blemotao",
-      "real_name": "Belenenses",
-      "slug": "Ble"
+      "real_name": "Belenenses"
     }
   },
   {
@@ -1408,8 +1252,7 @@
     "pk": 157,
     "fields": {
       "name": "SL Benfica",
-      "real_name": "SL Benfica",
-      "slug": "SLB"
+      "real_name": "SL Benfica"
     }
   },
   {
@@ -1417,8 +1260,7 @@
     "pk": 158,
     "fields": {
       "name": "Borfecao",
-      "real_name": "Boavista",
-      "slug": "Bor"
+      "real_name": "Boavista"
     }
   },
   {
@@ -1426,8 +1268,7 @@
     "pk": 159,
     "fields": {
       "name": "Bresigne",
-      "real_name": "Braga",
-      "slug": "Bre"
+      "real_name": "Braga"
     }
   },
   {
@@ -1435,8 +1276,7 @@
     "pk": 160,
     "fields": {
       "name": "TM Blue Red",
-      "real_name": "Chaves",
-      "slug": "TMB"
+      "real_name": "Chaves"
     }
   },
   {
@@ -1444,8 +1284,7 @@
     "pk": 161,
     "fields": {
       "name": "Estralpao",
-      "real_name": "Estoril",
-      "slug": "Est"
+      "real_name": "Estoril"
     }
   },
   {
@@ -1453,8 +1292,7 @@
     "pk": 162,
     "fields": {
       "name": "DL Azure Blue",
-      "real_name": "Feirense",
-      "slug": "DLA"
+      "real_name": "Feirense"
     }
   },
   {
@@ -1462,8 +1300,7 @@
     "pk": 163,
     "fields": {
       "name": "Maseadeira",
-      "real_name": "Maritimo",
-      "slug": "Mas"
+      "real_name": "Maritimo"
     }
   },
   {
@@ -1471,8 +1308,7 @@
     "pk": 164,
     "fields": {
       "name": "Meraszilho",
-      "real_name": "Moreirense",
-      "slug": "Mer"
+      "real_name": "Moreirense"
     }
   },
   {
@@ -1480,8 +1316,7 @@
     "pk": 165,
     "fields": {
       "name": "Nardimcol",
-      "real_name": "Nacional",
-      "slug": "Nar"
+      "real_name": "Nacional"
     }
   },
   {
@@ -1489,8 +1324,7 @@
     "pk": 166,
     "fields": {
       "name": "Podefteza",
-      "real_name": "Pacos de Ferreira",
-      "slug": "Pod"
+      "real_name": "Pacos de Ferreira"
     }
   },
   {
@@ -1498,8 +1332,7 @@
     "pk": 167,
     "fields": {
       "name": "DL Blue White",
-      "real_name": "Porto",
-      "slug": "DLB"
+      "real_name": "Porto"
     }
   },
   {
@@ -1507,8 +1340,7 @@
     "pk": 168,
     "fields": {
       "name": "Rovaneche",
-      "real_name": "Rio Ave",
-      "slug": "Rov"
+      "real_name": "Rio Ave"
     }
   },
   {
@@ -1516,8 +1348,7 @@
     "pk": 169,
     "fields": {
       "name": "Sporting CP",
-      "real_name": "Sportin CP",
-      "slug": "Spo"
+      "real_name": "Sportin CP"
     }
   },
   {
@@ -1525,8 +1356,7 @@
     "pk": 170,
     "fields": {
       "name": "BA Yellow Green",
-      "real_name": "Tondela",
-      "slug": "BAY"
+      "real_name": "Tondela"
     }
   },
   {
@@ -1534,8 +1364,7 @@
     "pk": 171,
     "fields": {
       "name": "Visicutao",
-      "real_name": "Vitoria de Guimaraes",
-      "slug": "Vis"
+      "real_name": "Vitoria de Guimaraes"
     }
   },
   {
@@ -1543,8 +1372,7 @@
     "pk": 172,
     "fields": {
       "name": "Verfolcao",
-      "real_name": "Vitoria de Setubal",
-      "slug": "Ver"
+      "real_name": "Vitoria de Setubal"
     }
   },
   {
@@ -1552,8 +1380,7 @@
     "pk": 173,
     "fields": {
       "name": "BV Borrusia 09 Dortmund",
-      "real_name": "BV Borrusia 09 Dortmund",
-      "slug": "BVB"
+      "real_name": "BV Borrusia 09 Dortmund"
     }
   }
 ]
