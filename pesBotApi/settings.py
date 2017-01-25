@@ -24,14 +24,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),'127.0.0.1']
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'), '127.0.0.1']
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAdminUser',
-    ],
+    'DEFAULT_PERMISSION_CLASSES': [],
     'PAGE_SIZE': 10
 }
 
