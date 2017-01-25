@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^get-next-match$', views.get_next_match),
-    url(r'^start-stop-match', views.start_stop_match)
+    url(r'^start-stop-match', views.start_stop_match),
+    url(r'^increment-decrement-score', views.increment_decrement_score),
 ]
