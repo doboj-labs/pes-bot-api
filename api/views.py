@@ -77,10 +77,9 @@ def increment_decrement_score(request):
                     match.save()
                     return response_json_with_status_code(200, 'home inc')
                 elif team == 'away':
-                    if match.home_score > 0:
-                        match.home_score += 1
-                        match.save()
-                        return response_json_with_status_code(200, 'away inc')
+                    match.home_score += 1
+                    match.save()
+                    return response_json_with_status_code(200, 'away inc')
             elif command == 'dec':
                 print("dec")
                 if team == 'home':
@@ -88,11 +87,15 @@ def increment_decrement_score(request):
                         match.home_score -= 1
                         match.save()
                         return response_json_with_status_code(200, 'home dec')
+                    else:
+                        return response_json_with_status_code(404, 'cent dec 0')
                 elif team == 'away':
                     if match.away_score > 0:
                         match.away_score -= 1
                         match.save()
                         return response_json_with_status_code(200, 'away dec')
+                    else:
+                        return response_json_with_status_code(404, 'cent dec 0')
         else:
             return response_json_with_status_code(404, 'no active match')
 
