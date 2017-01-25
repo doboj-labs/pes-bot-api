@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from rest_framework import viewsets
 from api.serializers import TournamentSerializer, MatchSerializer
 from api.models import Tournament, Match, MatchStatus
-from django.http import HttpResponse
+import simplejson as json
 
 
 class TournamentViewSet(viewsets.ModelViewSet):
@@ -40,7 +40,15 @@ def find_active_or_scheduled_match(just_active):
 @api_view(['GET'])
 def get_next_match(request):
     match = find_active_or_scheduled_match(False)
-    return response_json_with_status_code(200, str(match))
+    if match:
+        data = {}
+        data['match'] = '%s vs %s' % (match.home.team.slug, match.away.team.slug)
+        data['match_status'] = match.status
+        data['home'] = match.home_score
+        data['away'] = match.away_score
+        return response_json_with_status_code(200, data)
+    else:
+        return response_json_with_status_code(404, 'no match')
 
 
 @api_view(['GET'])

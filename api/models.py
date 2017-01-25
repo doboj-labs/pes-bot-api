@@ -13,8 +13,9 @@ class Tournament(models.Model):
 
 
 class Team(models.Model):
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=20, blank=False)
     real_name = models.CharField(max_length=200)
+    slug = models.CharField(max_length=3, default='non')
 
     def __str__(self):
         return self.name
