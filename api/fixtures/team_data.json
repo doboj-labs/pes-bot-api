@@ -1,3 +1,1559 @@
 [
-{"model": "api.team","pk": 1,"fields": {"name": "Arsenal fc ","real_name": "Arsenal fc"}},{"model": "api.team","pk": 2,"fields": {"name": "East Dorsetshire","real_name": "AFC Bournemouth"}},{"model": "api.team","pk": 3,"fields": {"name": "Lancashire Claret","real_name": "Burnley"}},{"model": "api.team","pk": 4,"fields": {"name": "London FC","real_name": "Chelsea"}},{"model": "api.team","pk": 5,"fields": {"name": "South Norwood","real_name": "Crystal Palace"}},{"model": "api.team","pk": 6,"fields": {"name": "Merseyside Blue","real_name": "Everton"}},{"model": "api.team","pk": 7,"fields": {"name": "Yorkshire Orange","real_name": "Hull City"}},{"model": "api.team","pk": 8,"fields": {"name": "East Midlands","real_name": "Leicester City"}},{"model": "api.team","pk": 9,"fields": {"name": "Liverpool fc ","real_name": "Liverpool fc"}},{"model": "api.team","pk": 10,"fields": {"name": "Man Blue","real_name": "Manchester City"}},{"model": "api.team","pk": 11,"fields": {"name": "Man Red","real_name": "Manchester United"}},{"model": "api.team","pk": 12,"fields": {"name": "Teeside","real_name": "Middlesbrough"}},{"model": "api.team","pk": 13,"fields": {"name": "Hampshire Red","real_name": "Southampton"}},{"model": "api.team","pk": 14,"fields": {"name": "St Red","real_name": "Stoke City"}},{"model": "api.team","pk": 15,"fields": {"name": "Wearside","real_name": "Sunderland"}},{"model": "api.team","pk": 16,"fields": {"name": "West Glamorgan City","real_name": "Swansea City"}},{"model": "api.team","pk": 17,"fields": {"name": "North East London","real_name": "Tottenham Hotspur"}},{"model": "api.team","pk": 18,"fields": {"name": "Hertfordshire","real_name": "Watford"}},{"model": "api.team","pk": 19,"fields": {"name": "West Midlands Stripes","real_name": "West Bromwich Albion"}},{"model": "api.team","pk": 20,"fields": {"name": "East London","real_name": "West Ham United"}},{"model": "api.team","pk": 21,"fields": {"name": "West Midlands Village","real_name": "Aston Villa"}},{"model": "api.team","pk": 22,"fields": {"name": "SY Red","real_name": "Barnsley"}},{"model": "api.team","pk": 23,"fields": {"name": "West Midlands City","real_name": "Birmingham City"}},{"model": "api.team","pk": 24,"fields": {"name": "Lancashire Blue","real_name": "Blackburn Rovers"}},{"model": "api.team","pk": 25,"fields": {"name": "Hounslow","real_name": "Brentford"}},{"model": "api.team","pk": 26,"fields": {"name": "East Sussex","real_name": "Brighton and Hove Albion"}},{"model": "api.team","pk": 27,"fields": {"name": "SW Red","real_name": "Bristol City"}},{"model": "api.team","pk": 28,"fields": {"name": "ST Yellow","real_name": "Burton Albion"}},{"model": "api.team","pk": 29,"fields": {"name": "South Wales","real_name": "Cardiff City"}},{"model": "api.team","pk": 30,"fields": {"name": "Derbyshire","real_name": "Derby County"}},{"model": "api.team","pk": 31,"fields": {"name": "West London White","real_name": "Fulham"}},{"model": "api.team","pk": 32,"fields": {"name": "West Yorkshire Town","real_name": "Huddersfield"}},{"model": "api.team","pk": 33,"fields": {"name": "East Anglia Town","real_name": "Ipswich Town"}},{"model": "api.team","pk": 34,"fields": {"name": "Yorkshire Whites","real_name": "Leeds United"}},{"model": "api.team","pk": 35,"fields": {"name": "Tyneside","real_name": "Newcastle United"}},{"model": "api.team","pk": 36,"fields": {"name": "Norfolk City","real_name": "Norwich City"}},{"model": "api.team","pk": 37,"fields": {"name": "Notts Reds","real_name": "Nottingham Forest"}},{"model": "api.team","pk": 38,"fields": {"name": "LN White","real_name": "Preston North End"}},{"model": "api.team","pk": 39,"fields": {"name": "North West London","real_name": "Queens Park Rangers"}},{"model": "api.team","pk": 40,"fields": {"name": "Berkshire Blues","real_name": "Reading"}},{"model": "api.team","pk": 41,"fields": {"name": "Yorkshire Reds","real_name": "Rotherham United"}},{"model": "api.team","pk": 42,"fields": {"name": "South Yorkshire Blues","real_name": "Sheffield Wednesday"}},{"model": "api.team","pk": 43,"fields": {"name": "LN Azure Blue White","real_name": "Wigan Athletic"}},{"model": "api.team","pk": 44,"fields": {"name": "WM Gold","real_name": "Wolverhampton Wanderers"}},{"model": "api.team","pk": 45,"fields": {"name": "PV Sky Blue White","real_name": "Alaves"}},{"model": "api.team","pk": 46,"fields": {"name": "PV White Red","real_name": "Athletic Bilbao"}},{"model": "api.team","pk": 47,"fields": {"name": "Club Atletico De Madrid ","real_name": "Club Atletico De Madrid"}},{"model": "api.team","pk": 48,"fields": {"name": "FC Barcelona ","real_name": "FC Barcelona"}},{"model": "api.team","pk": 49,"fields": {"name": "GA Cyan","real_name": "Celta Vigo"}},{"model": "api.team","pk": 50,"fields": {"name": "GA Blue Whites","real_name": "Derpotivo La Coruna"}},{"model": "api.team","pk": 51,"fields": {"name": "PV Blue Red","real_name": "Eibar"}},{"model": "api.team","pk": 52,"fields": {"name": "CT Blue White","real_name": "Espanyol"}},{"model": "api.team","pk": 53,"fields": {"name": "AN Red White","real_name": "Granada"}},{"model": "api.team","pk": 54,"fields": {"name": "CN Yellow Blue","real_name": "Las Palmas"}},{"model": "api.team","pk": 55,"fields": {"name": "MD Blue White","real_name": "Leganes"}},{"model": "api.team","pk": 56,"fields": {"name": "AN Cyan White","real_name": "Malaga"}},{"model": "api.team","pk": 57,"fields": {"name": "NC Red","real_name": "Osasuna"}},{"model": "api.team","pk": 58,"fields": {"name": "AN Green White","real_name": "Real Betis"}},{"model": "api.team","pk": 59,"fields": {"name": "MD White","real_name": "Real Madrid"}},{"model": "api.team","pk": 60,"fields": {"name": "PV Blue White","real_name": "Real Socedad"}},{"model": "api.team","pk": 61,"fields": {"name": "AN White Red","real_name": "Sevilla"}},{"model": "api.team","pk": 62,"fields": {"name": "AS Red White","real_name": "Sporting Gijon"}},{"model": "api.team","pk": 63,"fields": {"name": "ED White Orange","real_name": "Valencia"}},{"model": "api.team","pk": 64,"fields": {"name": "ED Yellow","real_name": "Villareal"}},{"model": "api.team","pk": 65,"fields": {"name": "MD Canary Yellow","real_name": "Alcorcon"}},{"model": "api.team","pk": 66,"fields": {"name": "AN Scarlet White","real_name": "Almeria"}},{"model": "api.team","pk": 67,"fields": {"name": "AN Yellow Blue","real_name": "Cadiz"}},{"model": "api.team","pk": 68,"fields": {"name": "AN Viridian White","real_name": "Cordoba"}},{"model": "api.team","pk": 69,"fields": {"name": "ED White Green","real_name": "Elche"}},{"model": "api.team","pk": 70,"fields": {"name": "MD Cobalt Blue","real_name": "Getafe"}},{"model": "api.team","pk": 71,"fields": {"name": "CT Red","real_name": "Gimnastic"}},{"model": "api.team","pk": 72,"fields": {"name": "Ct Carmine White","real_name": "Gorona"}},{"model": "api.team","pk": 73,"fields": {"name": "AR Burgundy Blue","real_name": "Huesca"}},{"model": "api.team","pk": 74,"fields": {"name": "ED Blue Burgundy","real_name": "Levante"}},{"model": "api.team","pk": 75,"fields": {"name": "GA Red White","real_name": "Lugo"}},{"model": "api.team","pk": 76,"fields": {"name": "IB Red Black","real_name": "Mallorca"}},{"model": "api.team","pk": 77,"fields": {"name": "CL Red Black","real_name": "Mirandes"}},{"model": "api.team","pk": 78,"fields": {"name": "CL Red","real_name": "Numancia"}},{"model": "api.team","pk": 79,"fields": {"name": "AS Blue","real_name": "Oviedo"}},{"model": "api.team","pk": 80,"fields": {"name": "MD Scarlet White","real_name": "Rao Vallecano"}},{"model": "api.team","pk": 81,"fields": {"name": "CT Red Black","real_name": "Reus Deportiu"}},{"model": "api.team","pk": 82,"fields": {"name": "AN White Red B","real_name": "Sevilla Atletico"}},{"model": "api.team","pk": 83,"fields": {"name": "CN White Blue","real_name": "Tenerife"}},{"model": "api.team","pk": 84,"fields": {"name": "MC Navy Blue","real_name": "UCAM Murcia"}},{"model": "api.team","pk": 85,"fields": {"name": "CL Purple","real_name": "Valladolid"}},{"model": "api.team","pk": 86,"fields": {"name": "AR White Blue","real_name": "Zaragoza"}},{"model": "api.team","pk": 87,"fields": {"name": "Atlanta","real_name": "Atlanta"}},{"model": "api.team","pk": 88,"fields": {"name": "Bologna FC 1909","real_name": "Bologna FC 1909"}},{"model": "api.team","pk": 89,"fields": {"name": "Cagliari Calcid","real_name": "Cagliari Calcid"}},{"model": "api.team","pk": 90,"fields": {"name": "AC Chievo Verona","real_name": "AC Chievo Verona"}},{"model": "api.team","pk": 91,"fields": {"name": "FC Crontone","real_name": "FC Crontone"}},{"model": "api.team","pk": 92,"fields": {"name": "Empoli FC","real_name": "Empoli FC"}},{"model": "api.team","pk": 93,"fields": {"name": "ACF Fiorentina","real_name": "ACF Fiorentina"}},{"model": "api.team","pk": 94,"fields": {"name": "Genda CFC","real_name": "Genda CFC"}},{"model": "api.team","pk": 95,"fields": {"name": "Internazionale","real_name": "Internazionale"}},{"model": "api.team","pk": 96,"fields": {"name": "PM Black White","real_name": "Juventus"}},{"model": "api.team","pk": 97,"fields": {"name": "SS Lazio","real_name": "SS Lazio"}},{"model": "api.team","pk": 98,"fields": {"name": "AC Milan","real_name": "AC Milan"}},{"model": "api.team","pk": 99,"fields": {"name": "SSC Napoli","real_name": "SSC Napoli"}},{"model": "api.team","pk": 100,"fields": {"name": "US Citta Di Palermo","real_name": "US Citta Di Palermo"}},{"model": "api.team","pk": 101,"fields": {"name": "Delfin Pascara 1936","real_name": "Delfin Pascara 1936"}},{"model": "api.team","pk": 102,"fields": {"name": "AS Roma","real_name": "AS Roma"}},{"model": "api.team","pk": 103,"fields": {"name": "UC Sampdoria","real_name": "UC Sampdoria"}},{"model": "api.team","pk": 104,"fields": {"name": "Sansagiulo","real_name": "Sassuolo"}},{"model": "api.team","pk": 105,"fields": {"name": "Torino FC","real_name": "Torino FC"}},{"model": "api.team","pk": 106,"fields": {"name": "Udinese Calcio","real_name": "Udinese Calcio"}},{"model": "api.team","pk": 107,"fields": {"name": "MA Zebra","real_name": "Ascoli"}},{"model": "api.team","pk": 108,"fields": {"name": "Alvegiaro","real_name": "Avellino"}},{"model": "api.team","pk": 109,"fields": {"name": "Bagnaroni","real_name": "Bari"}},{"model": "api.team","pk": 110,"fields": {"name": "CM Yellow Red","real_name": "Benevento"}},{"model": "api.team","pk": 111,"fields": {"name": "Brutie","real_name": "Brescia"}},{"model": "api.team","pk": 112,"fields": {"name": "ER White Red","real_name": "Carpi"}},{"model": "api.team","pk": 113,"fields": {"name": "ER Black White","real_name": "Cesena"}},{"model": "api.team","pk": 114,"fields": {"name": "DL Crimson","real_name": "Cittadella"}},{"model": "api.team","pk": 115,"fields": {"name": "TI Yellow Blue","real_name": "Frosinone"}},{"model": "api.team","pk": 116,"fields": {"name": "Litolizano","real_name": "Latina"}},{"model": "api.team","pk": 117,"fields": {"name": "PM Blue White","real_name": "Novara"}},{"model": "api.team","pk": 118,"fields": {"name": "Prastogna","real_name": "Perugia"}},{"model": "api.team","pk": 119,"fields": {"name": "TO Blue Black","real_name": "Pisa"}},{"model": "api.team","pk": 120,"fields": {"name": "Pailamundoveli","real_name": "Pro Vercelli"}},{"model": "api.team","pk": 121,"fields": {"name": "CM Burgundy","real_name": "Salernitana"}},{"model": "api.team","pk": 122,"fields": {"name": "ER Sky Blue","real_name": "SPAL"}},{"model": "api.team","pk": 123,"fields": {"name": "Spremonese","real_name": "Spezia"}},{"model": "api.team","pk": 124,"fields": {"name": "Teccarina","real_name": "Ternana"}},{"model": "api.team","pk": 125,"fields": {"name": "Drepanumese","real_name": "Trapani"}},{"model": "api.team","pk": 126,"fields": {"name": "DL Blue","real_name": "Verona"}},{"model": "api.team","pk": 127,"fields": {"name": "Vocchaioni","real_name": "Vicenza"}},{"model": "api.team","pk": 128,"fields": {"name": "LR White Blue","real_name": "Virtus Entella"}},{"model": "api.team","pk": 129,"fields": {"name": "Angers","real_name": "Angers"}},{"model": "api.team","pk": 130,"fields": {"name": "SC Bastia","real_name": "SC Bastia"}},{"model": "api.team","pk": 131,"fields": {"name": "Bordeaux","real_name": "Bordeaux"}},{"model": "api.team","pk": 132,"fields": {"name": "Stade Malherba Caen","real_name": "Stade Malherba Caen"}},{"model": "api.team","pk": 133,"fields": {"name": "Dijon FCO","real_name": "Dijon FCO"}},{"model": "api.team","pk": 134,"fields": {"name": "EN Avant Guingap","real_name": "EN Avant Guingap"}},{"model": "api.team","pk": 135,"fields": {"name": "Lille Osc Metropole","real_name": "Lille Osc Metropole"}},{"model": "api.team","pk": 136,"fields": {"name": "FC Lorient","real_name": "FC Lorient"}},{"model": "api.team","pk": 137,"fields": {"name": "Olympique Lyonnais","real_name": "Olympique Lyonnais"}},{"model": "api.team","pk": 138,"fields": {"name": "Olympique De Marseille","real_name": "Olympique De Marseille"}},{"model": "api.team","pk": 139,"fields": {"name": "FC Metz","real_name": "FC Metz"}},{"model": "api.team","pk": 140,"fields": {"name": "AS Monaco FC","real_name": "AS Monaco FC"}},{"model": "api.team","pk": 141,"fields": {"name": "Montpelliar HSC","real_name": "Montpelliar HSC"}},{"model": "api.team","pk": 142,"fields": {"name": "AS Nancy Lorraine","real_name": "AS Nancy Lorraine"}},{"model": "api.team","pk": 143,"fields": {"name": "FC Nantes","real_name": "FC Nantes"}},{"model": "api.team","pk": 144,"fields": {"name": "OGC Nice Cote Dazur","real_name": "OGC Nice Cote Dazur"}},{"model": "api.team","pk": 145,"fields": {"name": "Paris Saint Germain FC","real_name": "Paris Saint Germain FC"}},{"model": "api.team","pk": 146,"fields": {"name": "Stade Rennais FC","real_name": "Stade Rennais FC"}},{"model": "api.team","pk": 147,"fields": {"name": "AS Saint Etienne","real_name": "AS Saint Etienne"}},{"model": "api.team","pk": 148,"fields": {"name": "Toulouse FC","real_name": "Toulouse FC"}},{"model": "api.team","pk": 149,"fields": {"name": "AC Ajaccio","real_name": "AC Ajaccio"}},{"model": "api.team","pk": 150,"fields": {"name": "Amiens SC","real_name": "Amiens SC"}},{"model": "api.team","pk": 151,"fields": {"name": "Auxerre","real_name": "Auxerre"}},{"model": "api.team","pk": 152,"fields": {"name": "Bourg En Bresse 01","real_name": "Bourg En Bresse 01"}},{"model": "api.team","pk": 153,"fields": {"name": "Stade Brestois 29","real_name": "Stade Brestois 29"}},{"model": "api.team","pk": 154,"fields": {"name": "Clarmont Foot 64","real_name": "Clarmont Foot 64"}},{"model": "api.team","pk": 155,"fields": {"name": "Arimelcao","real_name": "Arouca"}},{"model": "api.team","pk": 156,"fields": {"name": "Blemotao","real_name": "Belenenses"}},{"model": "api.team","pk": 157,"fields": {"name": "SL Benfica","real_name": "SL Benfica"}},{"model": "api.team","pk": 158,"fields": {"name": "Borfecao","real_name": "Boavista"}},{"model": "api.team","pk": 159,"fields": {"name": "Bresigne","real_name": "Braga"}},{"model": "api.team","pk": 160,"fields": {"name": "TM Blue Red","real_name": "Chaves"}},{"model": "api.team","pk": 161,"fields": {"name": "Estralpao","real_name": "Estoril"}},{"model": "api.team","pk": 162,"fields": {"name": "DL Azure Blue","real_name": "Feirense"}},{"model": "api.team","pk": 163,"fields": {"name": "Maseadeira","real_name": "Maritimo"}},{"model": "api.team","pk": 164,"fields": {"name": "Meraszilho","real_name": "Moreirense"}},{"model": "api.team","pk": 165,"fields": {"name": "Nardimcol","real_name": "Nacional"}},{"model": "api.team","pk": 166,"fields": {"name": "Podefteza","real_name": "Pacos de Ferreira"}},{"model": "api.team","pk": 167,"fields": {"name": "DL Blue White","real_name": "Porto"}},{"model": "api.team","pk": 168,"fields": {"name": "Rovaneche","real_name": "Rio Ave"}},{"model": "api.team","pk": 169,"fields": {"name": "Sporting CP","real_name": "Sportin CP"}},{"model": "api.team","pk": 170,"fields": {"name": "BA Yellow Green","real_name": "Tondela"}},{"model": "api.team","pk": 171,"fields": {"name": "Visicutao","real_name": "Vitoria de Guimaraes"}},{"model": "api.team","pk": 172,"fields": {"name": "Verfolcao","real_name": "Vitoria de Setubal"}},{"model": "api.team","pk": 173,"fields": {"name": "BV Borrusia 09 Dortmund","real_name": "BV Borrusia 09 Dortmund"}}
+  {
+    "model": "api.team",
+    "pk": 1,
+    "fields": {
+      "name": "Arsenal fc ",
+      "real_name": "Arsenal fc",
+      "slug": "Ars"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 2,
+    "fields": {
+      "name": "East Dorsetshire",
+      "real_name": "AFC Bournemouth",
+      "slug": "Eas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 3,
+    "fields": {
+      "name": "Lancashire Claret",
+      "real_name": "Burnley",
+      "slug": "Lan"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 4,
+    "fields": {
+      "name": "London FC",
+      "real_name": "Chelsea",
+      "slug": "Lon"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 5,
+    "fields": {
+      "name": "South Norwood",
+      "real_name": "Crystal Palace",
+      "slug": "Sou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 6,
+    "fields": {
+      "name": "Merseyside Blue",
+      "real_name": "Everton",
+      "slug": "Mer"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 7,
+    "fields": {
+      "name": "Yorkshire Orange",
+      "real_name": "Hull City",
+      "slug": "Yor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 8,
+    "fields": {
+      "name": "East Midlands",
+      "real_name": "Leicester City",
+      "slug": "Eas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 9,
+    "fields": {
+      "name": "Liverpool fc ",
+      "real_name": "Liverpool fc",
+      "slug": "Liv"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 10,
+    "fields": {
+      "name": "Man Blue",
+      "real_name": "Manchester City",
+      "slug": "Man"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 11,
+    "fields": {
+      "name": "Man Red",
+      "real_name": "Manchester United",
+      "slug": "Man"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 12,
+    "fields": {
+      "name": "Teeside",
+      "real_name": "Middlesbrough",
+      "slug": "Tee"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 13,
+    "fields": {
+      "name": "Hampshire Red",
+      "real_name": "Southampton",
+      "slug": "Ham"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 14,
+    "fields": {
+      "name": "St Red",
+      "real_name": "Stoke City",
+      "slug": "StR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 15,
+    "fields": {
+      "name": "Wearside",
+      "real_name": "Sunderland",
+      "slug": "Wea"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 16,
+    "fields": {
+      "name": "West Glamorgan City",
+      "real_name": "Swansea City",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 17,
+    "fields": {
+      "name": "North East London",
+      "real_name": "Tottenham Hotspur",
+      "slug": "Nor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 18,
+    "fields": {
+      "name": "Hertfordshire",
+      "real_name": "Watford",
+      "slug": "Her"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 19,
+    "fields": {
+      "name": "West Midlands Stripes",
+      "real_name": "West Bromwich Albion",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 20,
+    "fields": {
+      "name": "East London",
+      "real_name": "West Ham United",
+      "slug": "Eas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 21,
+    "fields": {
+      "name": "West Midlands Village",
+      "real_name": "Aston Villa",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 22,
+    "fields": {
+      "name": "SY Red",
+      "real_name": "Barnsley",
+      "slug": "SYR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 23,
+    "fields": {
+      "name": "West Midlands City",
+      "real_name": "Birmingham City",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 24,
+    "fields": {
+      "name": "Lancashire Blue",
+      "real_name": "Blackburn Rovers",
+      "slug": "Lan"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 25,
+    "fields": {
+      "name": "Hounslow",
+      "real_name": "Brentford",
+      "slug": "Hou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 26,
+    "fields": {
+      "name": "East Sussex",
+      "real_name": "Brighton and Hove Albion",
+      "slug": "Eas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 27,
+    "fields": {
+      "name": "SW Red",
+      "real_name": "Bristol City",
+      "slug": "SWR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 28,
+    "fields": {
+      "name": "ST Yellow",
+      "real_name": "Burton Albion",
+      "slug": "STY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 29,
+    "fields": {
+      "name": "South Wales",
+      "real_name": "Cardiff City",
+      "slug": "Sou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 30,
+    "fields": {
+      "name": "Derbyshire",
+      "real_name": "Derby County",
+      "slug": "Der"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 31,
+    "fields": {
+      "name": "West London White",
+      "real_name": "Fulham",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 32,
+    "fields": {
+      "name": "West Yorkshire Town",
+      "real_name": "Huddersfield",
+      "slug": "Wes"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 33,
+    "fields": {
+      "name": "East Anglia Town",
+      "real_name": "Ipswich Town",
+      "slug": "Eas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 34,
+    "fields": {
+      "name": "Yorkshire Whites",
+      "real_name": "Leeds United",
+      "slug": "Yor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 35,
+    "fields": {
+      "name": "Tyneside",
+      "real_name": "Newcastle United",
+      "slug": "Tyn"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 36,
+    "fields": {
+      "name": "Norfolk City",
+      "real_name": "Norwich City",
+      "slug": "Nor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 37,
+    "fields": {
+      "name": "Notts Reds",
+      "real_name": "Nottingham Forest",
+      "slug": "Not"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 38,
+    "fields": {
+      "name": "LN White",
+      "real_name": "Preston North End",
+      "slug": "LNW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 39,
+    "fields": {
+      "name": "North West London",
+      "real_name": "Queens Park Rangers",
+      "slug": "Nor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 40,
+    "fields": {
+      "name": "Berkshire Blues",
+      "real_name": "Reading",
+      "slug": "Ber"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 41,
+    "fields": {
+      "name": "Yorkshire Reds",
+      "real_name": "Rotherham United",
+      "slug": "Yor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 42,
+    "fields": {
+      "name": "South Yorkshire Blues",
+      "real_name": "Sheffield Wednesday",
+      "slug": "Sou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 43,
+    "fields": {
+      "name": "LN Azure Blue White",
+      "real_name": "Wigan Athletic",
+      "slug": "LNA"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 44,
+    "fields": {
+      "name": "WM Gold",
+      "real_name": "Wolverhampton Wanderers",
+      "slug": "WMG"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 45,
+    "fields": {
+      "name": "PV Sky Blue White",
+      "real_name": "Alaves",
+      "slug": "PVS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 46,
+    "fields": {
+      "name": "PV White Red",
+      "real_name": "Athletic Bilbao",
+      "slug": "PVW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 47,
+    "fields": {
+      "name": "Club Atletico De Madrid ",
+      "real_name": "Club Atletico De Madrid",
+      "slug": "Clu"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 48,
+    "fields": {
+      "name": "FC Barcelona ",
+      "real_name": "FC Barcelona",
+      "slug": "FCB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 49,
+    "fields": {
+      "name": "GA Cyan",
+      "real_name": "Celta Vigo",
+      "slug": "GAC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 50,
+    "fields": {
+      "name": "GA Blue Whites",
+      "real_name": "Derpotivo La Coruna",
+      "slug": "GAB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 51,
+    "fields": {
+      "name": "PV Blue Red",
+      "real_name": "Eibar",
+      "slug": "PVB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 52,
+    "fields": {
+      "name": "CT Blue White",
+      "real_name": "Espanyol",
+      "slug": "CTB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 53,
+    "fields": {
+      "name": "AN Red White",
+      "real_name": "Granada",
+      "slug": "ANR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 54,
+    "fields": {
+      "name": "CN Yellow Blue",
+      "real_name": "Las Palmas",
+      "slug": "CNY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 55,
+    "fields": {
+      "name": "MD Blue White",
+      "real_name": "Leganes",
+      "slug": "MDB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 56,
+    "fields": {
+      "name": "AN Cyan White",
+      "real_name": "Malaga",
+      "slug": "ANC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 57,
+    "fields": {
+      "name": "NC Red",
+      "real_name": "Osasuna",
+      "slug": "NCR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 58,
+    "fields": {
+      "name": "AN Green White",
+      "real_name": "Real Betis",
+      "slug": "ANG"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 59,
+    "fields": {
+      "name": "MD White",
+      "real_name": "Real Madrid",
+      "slug": "MDW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 60,
+    "fields": {
+      "name": "PV Blue White",
+      "real_name": "Real Socedad",
+      "slug": "PVB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 61,
+    "fields": {
+      "name": "AN White Red",
+      "real_name": "Sevilla",
+      "slug": "ANW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 62,
+    "fields": {
+      "name": "AS Red White",
+      "real_name": "Sporting Gijon",
+      "slug": "ASR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 63,
+    "fields": {
+      "name": "ED White Orange",
+      "real_name": "Valencia",
+      "slug": "EDW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 64,
+    "fields": {
+      "name": "ED Yellow",
+      "real_name": "Villareal",
+      "slug": "EDY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 65,
+    "fields": {
+      "name": "MD Canary Yellow",
+      "real_name": "Alcorcon",
+      "slug": "MDC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 66,
+    "fields": {
+      "name": "AN Scarlet White",
+      "real_name": "Almeria",
+      "slug": "ANS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 67,
+    "fields": {
+      "name": "AN Yellow Blue",
+      "real_name": "Cadiz",
+      "slug": "ANY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 68,
+    "fields": {
+      "name": "AN Viridian White",
+      "real_name": "Cordoba",
+      "slug": "ANV"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 69,
+    "fields": {
+      "name": "ED White Green",
+      "real_name": "Elche",
+      "slug": "EDW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 70,
+    "fields": {
+      "name": "MD Cobalt Blue",
+      "real_name": "Getafe",
+      "slug": "MDC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 71,
+    "fields": {
+      "name": "CT Red",
+      "real_name": "Gimnastic",
+      "slug": "CTR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 72,
+    "fields": {
+      "name": "Ct Carmine White",
+      "real_name": "Gorona",
+      "slug": "CtC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 73,
+    "fields": {
+      "name": "AR Burgundy Blue",
+      "real_name": "Huesca",
+      "slug": "ARB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 74,
+    "fields": {
+      "name": "ED Blue Burgundy",
+      "real_name": "Levante",
+      "slug": "EDB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 75,
+    "fields": {
+      "name": "GA Red White",
+      "real_name": "Lugo",
+      "slug": "GAR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 76,
+    "fields": {
+      "name": "IB Red Black",
+      "real_name": "Mallorca",
+      "slug": "IBR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 77,
+    "fields": {
+      "name": "CL Red Black",
+      "real_name": "Mirandes",
+      "slug": "CLR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 78,
+    "fields": {
+      "name": "CL Red",
+      "real_name": "Numancia",
+      "slug": "CLR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 79,
+    "fields": {
+      "name": "AS Blue",
+      "real_name": "Oviedo",
+      "slug": "ASB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 80,
+    "fields": {
+      "name": "MD Scarlet White",
+      "real_name": "Rao Vallecano",
+      "slug": "MDS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 81,
+    "fields": {
+      "name": "CT Red Black",
+      "real_name": "Reus Deportiu",
+      "slug": "CTR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 82,
+    "fields": {
+      "name": "AN White Red B",
+      "real_name": "Sevilla Atletico",
+      "slug": "ANW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 83,
+    "fields": {
+      "name": "CN White Blue",
+      "real_name": "Tenerife",
+      "slug": "CNW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 84,
+    "fields": {
+      "name": "MC Navy Blue",
+      "real_name": "UCAM Murcia",
+      "slug": "MCN"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 85,
+    "fields": {
+      "name": "CL Purple",
+      "real_name": "Valladolid",
+      "slug": "CLP"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 86,
+    "fields": {
+      "name": "AR White Blue",
+      "real_name": "Zaragoza",
+      "slug": "ARW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 87,
+    "fields": {
+      "name": "Atlanta",
+      "real_name": "Atlanta",
+      "slug": "Atl"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 88,
+    "fields": {
+      "name": "Bologna FC 1909",
+      "real_name": "Bologna FC 1909",
+      "slug": "Bol"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 89,
+    "fields": {
+      "name": "Cagliari Calcid",
+      "real_name": "Cagliari Calcid",
+      "slug": "Cag"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 90,
+    "fields": {
+      "name": "AC Chievo Verona",
+      "real_name": "AC Chievo Verona",
+      "slug": "ACC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 91,
+    "fields": {
+      "name": "FC Crontone",
+      "real_name": "FC Crontone",
+      "slug": "FCC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 92,
+    "fields": {
+      "name": "Empoli FC",
+      "real_name": "Empoli FC",
+      "slug": "Emp"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 93,
+    "fields": {
+      "name": "ACF Fiorentina",
+      "real_name": "ACF Fiorentina",
+      "slug": "ACF"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 94,
+    "fields": {
+      "name": "Genda CFC",
+      "real_name": "Genda CFC",
+      "slug": "Gen"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 95,
+    "fields": {
+      "name": "Internazionale",
+      "real_name": "Internazionale",
+      "slug": "Int"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 96,
+    "fields": {
+      "name": "PM Black White",
+      "real_name": "Juventus",
+      "slug": "PMB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 97,
+    "fields": {
+      "name": "SS Lazio",
+      "real_name": "SS Lazio",
+      "slug": "SSL"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 98,
+    "fields": {
+      "name": "AC Milan",
+      "real_name": "AC Milan",
+      "slug": "ACM"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 99,
+    "fields": {
+      "name": "SSC Napoli",
+      "real_name": "SSC Napoli",
+      "slug": "SSC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 100,
+    "fields": {
+      "name": "US Citta Di Palermo",
+      "real_name": "US Citta Di Palermo",
+      "slug": "USC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 101,
+    "fields": {
+      "name": "Delfin Pascara 1936",
+      "real_name": "Delfin Pascara 1936",
+      "slug": "Del"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 102,
+    "fields": {
+      "name": "AS Roma",
+      "real_name": "AS Roma",
+      "slug": "ASR"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 103,
+    "fields": {
+      "name": "UC Sampdoria",
+      "real_name": "UC Sampdoria",
+      "slug": "UCS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 104,
+    "fields": {
+      "name": "Sansagiulo",
+      "real_name": "Sassuolo",
+      "slug": "San"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 105,
+    "fields": {
+      "name": "Torino FC",
+      "real_name": "Torino FC",
+      "slug": "Tor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 106,
+    "fields": {
+      "name": "Udinese Calcio",
+      "real_name": "Udinese Calcio",
+      "slug": "Udi"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 107,
+    "fields": {
+      "name": "MA Zebra",
+      "real_name": "Ascoli",
+      "slug": "MAZ"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 108,
+    "fields": {
+      "name": "Alvegiaro",
+      "real_name": "Avellino",
+      "slug": "Alv"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 109,
+    "fields": {
+      "name": "Bagnaroni",
+      "real_name": "Bari",
+      "slug": "Bag"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 110,
+    "fields": {
+      "name": "CM Yellow Red",
+      "real_name": "Benevento",
+      "slug": "CMY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 111,
+    "fields": {
+      "name": "Brutie",
+      "real_name": "Brescia",
+      "slug": "Bru"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 112,
+    "fields": {
+      "name": "ER White Red",
+      "real_name": "Carpi",
+      "slug": "ERW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 113,
+    "fields": {
+      "name": "ER Black White",
+      "real_name": "Cesena",
+      "slug": "ERB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 114,
+    "fields": {
+      "name": "DL Crimson",
+      "real_name": "Cittadella",
+      "slug": "DLC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 115,
+    "fields": {
+      "name": "TI Yellow Blue",
+      "real_name": "Frosinone",
+      "slug": "TIY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 116,
+    "fields": {
+      "name": "Litolizano",
+      "real_name": "Latina",
+      "slug": "Lit"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 117,
+    "fields": {
+      "name": "PM Blue White",
+      "real_name": "Novara",
+      "slug": "PMB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 118,
+    "fields": {
+      "name": "Prastogna",
+      "real_name": "Perugia",
+      "slug": "Pra"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 119,
+    "fields": {
+      "name": "TO Blue Black",
+      "real_name": "Pisa",
+      "slug": "TOB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 120,
+    "fields": {
+      "name": "Pailamundoveli",
+      "real_name": "Pro Vercelli",
+      "slug": "Pai"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 121,
+    "fields": {
+      "name": "CM Burgundy",
+      "real_name": "Salernitana",
+      "slug": "CMB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 122,
+    "fields": {
+      "name": "ER Sky Blue",
+      "real_name": "SPAL",
+      "slug": "ERS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 123,
+    "fields": {
+      "name": "Spremonese",
+      "real_name": "Spezia",
+      "slug": "Spr"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 124,
+    "fields": {
+      "name": "Teccarina",
+      "real_name": "Ternana",
+      "slug": "Tec"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 125,
+    "fields": {
+      "name": "Drepanumese",
+      "real_name": "Trapani",
+      "slug": "Dre"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 126,
+    "fields": {
+      "name": "DL Blue",
+      "real_name": "Verona",
+      "slug": "DLB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 127,
+    "fields": {
+      "name": "Vocchaioni",
+      "real_name": "Vicenza",
+      "slug": "Voc"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 128,
+    "fields": {
+      "name": "LR White Blue",
+      "real_name": "Virtus Entella",
+      "slug": "LRW"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 129,
+    "fields": {
+      "name": "Angers",
+      "real_name": "Angers",
+      "slug": "Ang"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 130,
+    "fields": {
+      "name": "SC Bastia",
+      "real_name": "SC Bastia",
+      "slug": "SCB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 131,
+    "fields": {
+      "name": "Bordeaux",
+      "real_name": "Bordeaux",
+      "slug": "Bor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 132,
+    "fields": {
+      "name": "Stade Malherba Caen",
+      "real_name": "Stade Malherba Caen",
+      "slug": "Sta"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 133,
+    "fields": {
+      "name": "Dijon FCO",
+      "real_name": "Dijon FCO",
+      "slug": "Dij"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 134,
+    "fields": {
+      "name": "EN Avant Guingap",
+      "real_name": "EN Avant Guingap",
+      "slug": "ENA"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 135,
+    "fields": {
+      "name": "Lille Osc Metropole",
+      "real_name": "Lille Osc Metropole",
+      "slug": "Lil"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 136,
+    "fields": {
+      "name": "FC Lorient",
+      "real_name": "FC Lorient",
+      "slug": "FCL"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 137,
+    "fields": {
+      "name": "Olympique Lyonnais",
+      "real_name": "Olympique Lyonnais",
+      "slug": "Oly"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 138,
+    "fields": {
+      "name": "Olympique De Marseille",
+      "real_name": "Olympique De Marseille",
+      "slug": "Oly"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 139,
+    "fields": {
+      "name": "FC Metz",
+      "real_name": "FC Metz",
+      "slug": "FCM"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 140,
+    "fields": {
+      "name": "AS Monaco FC",
+      "real_name": "AS Monaco FC",
+      "slug": "ASM"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 141,
+    "fields": {
+      "name": "Montpelliar HSC",
+      "real_name": "Montpelliar HSC",
+      "slug": "Mon"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 142,
+    "fields": {
+      "name": "AS Nancy Lorraine",
+      "real_name": "AS Nancy Lorraine",
+      "slug": "ASN"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 143,
+    "fields": {
+      "name": "FC Nantes",
+      "real_name": "FC Nantes",
+      "slug": "FCN"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 144,
+    "fields": {
+      "name": "OGC Nice Cote Dazur",
+      "real_name": "OGC Nice Cote Dazur",
+      "slug": "OGC"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 145,
+    "fields": {
+      "name": "Paris Saint Germain FC",
+      "real_name": "Paris Saint Germain FC",
+      "slug": "Par"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 146,
+    "fields": {
+      "name": "Stade Rennais FC",
+      "real_name": "Stade Rennais FC",
+      "slug": "Sta"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 147,
+    "fields": {
+      "name": "AS Saint Etienne",
+      "real_name": "AS Saint Etienne",
+      "slug": "ASS"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 148,
+    "fields": {
+      "name": "Toulouse FC",
+      "real_name": "Toulouse FC",
+      "slug": "Tou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 149,
+    "fields": {
+      "name": "AC Ajaccio",
+      "real_name": "AC Ajaccio",
+      "slug": "ACA"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 150,
+    "fields": {
+      "name": "Amiens SC",
+      "real_name": "Amiens SC",
+      "slug": "Ami"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 151,
+    "fields": {
+      "name": "Auxerre",
+      "real_name": "Auxerre",
+      "slug": "Aux"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 152,
+    "fields": {
+      "name": "Bourg En Bresse 01",
+      "real_name": "Bourg En Bresse 01",
+      "slug": "Bou"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 153,
+    "fields": {
+      "name": "Stade Brestois 29",
+      "real_name": "Stade Brestois 29",
+      "slug": "Sta"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 154,
+    "fields": {
+      "name": "Clarmont Foot 64",
+      "real_name": "Clarmont Foot 64",
+      "slug": "Cla"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 155,
+    "fields": {
+      "name": "Arimelcao",
+      "real_name": "Arouca",
+      "slug": "Ari"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 156,
+    "fields": {
+      "name": "Blemotao",
+      "real_name": "Belenenses",
+      "slug": "Ble"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 157,
+    "fields": {
+      "name": "SL Benfica",
+      "real_name": "SL Benfica",
+      "slug": "SLB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 158,
+    "fields": {
+      "name": "Borfecao",
+      "real_name": "Boavista",
+      "slug": "Bor"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 159,
+    "fields": {
+      "name": "Bresigne",
+      "real_name": "Braga",
+      "slug": "Bre"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 160,
+    "fields": {
+      "name": "TM Blue Red",
+      "real_name": "Chaves",
+      "slug": "TMB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 161,
+    "fields": {
+      "name": "Estralpao",
+      "real_name": "Estoril",
+      "slug": "Est"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 162,
+    "fields": {
+      "name": "DL Azure Blue",
+      "real_name": "Feirense",
+      "slug": "DLA"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 163,
+    "fields": {
+      "name": "Maseadeira",
+      "real_name": "Maritimo",
+      "slug": "Mas"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 164,
+    "fields": {
+      "name": "Meraszilho",
+      "real_name": "Moreirense",
+      "slug": "Mer"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 165,
+    "fields": {
+      "name": "Nardimcol",
+      "real_name": "Nacional",
+      "slug": "Nar"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 166,
+    "fields": {
+      "name": "Podefteza",
+      "real_name": "Pacos de Ferreira",
+      "slug": "Pod"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 167,
+    "fields": {
+      "name": "DL Blue White",
+      "real_name": "Porto",
+      "slug": "DLB"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 168,
+    "fields": {
+      "name": "Rovaneche",
+      "real_name": "Rio Ave",
+      "slug": "Rov"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 169,
+    "fields": {
+      "name": "Sporting CP",
+      "real_name": "Sportin CP",
+      "slug": "Spo"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 170,
+    "fields": {
+      "name": "BA Yellow Green",
+      "real_name": "Tondela",
+      "slug": "BAY"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 171,
+    "fields": {
+      "name": "Visicutao",
+      "real_name": "Vitoria de Guimaraes",
+      "slug": "Vis"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 172,
+    "fields": {
+      "name": "Verfolcao",
+      "real_name": "Vitoria de Setubal",
+      "slug": "Ver"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 173,
+    "fields": {
+      "name": "BV Borrusia 09 Dortmund",
+      "real_name": "BV Borrusia 09 Dortmund",
+      "slug": "BVB"
+    }
+  },
 ]
