@@ -22,7 +22,7 @@ def send_score_message(match):
     sc.api_call(
         "chat.postMessage",
         channel=channel,
-        text="Current score is:\n %s" % match.get_score()
+        text="%sCurrent score is:\n %s%s" % (delimeter, match.get_score(), delimeter)
     )
 
 
