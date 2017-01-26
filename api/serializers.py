@@ -6,7 +6,7 @@ from .models import Tournament, Match, Profile
 class ProfileSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Profile
-        fields = '__all__'
+        fields = ['slack_name', ]
 
 
 class TournamentSerializer(serializers.HyperlinkedModelSerializer):
@@ -21,4 +21,4 @@ class MatchSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Match
-        fields = ('__all__')
+        fields = '__all__'
