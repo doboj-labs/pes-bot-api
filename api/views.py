@@ -13,9 +13,7 @@ slack_token = os.environ["SLACK_API_TOKEN"]
 sc = SlackClient(slack_token)
 
 channel = os.environ['SLACK_CHANEL']
-delimeter = '\n-------------------------------------------------' \
-            '----------------------------------------------------' \
-            '----------------------------------------------------\n'
+delimeter = '\n-------------------------------------------------\n'
 
 
 def send_score_message(match):
@@ -28,13 +26,11 @@ def send_score_message(match):
 
 def start_stop_match_message(match, activity):
     if activity == 'started':
-        message = "%s%s%s:soccer: Match: %s has %s%s" % (
-            delimeter, delimeter, delimeter, match.get_match_names(), activity, delimeter)
+        message = "%s:soccer: Match: %s has %s%s" % (delimeter, match.get_match_names(), activity, delimeter)
     elif activity == 'ended':
-        message = "%s:sports_medal: Match: %s has %s with score:\n %s%s%s%s" % (delimeter,
-                                                                                match.get_match_names(), activity,
-                                                                                match.get_score(), delimeter, delimeter,
-                                                                                delimeter)
+        message = "%s:sports_medal: Match: %s has %s with score:\n %s %s" % (
+            delimeter, match.get_match_names(), activity,
+            match.get_score(), delimeter)
     sc.api_call(
         "chat.postMessage",
         channel=channel,
