@@ -46,3 +46,9 @@ class Match(models.Model):
 
     def __str__(self):
         return "%s - %s (%d - %d) - %s" % (self.home, self.away, self.home_score, self.away_score, self.status)
+
+    def get_score(self):
+        return "%s %d - %d %s" % (self.home, self.home_score, self.away_score, self.away)
+
+    def get_match_names(self):
+        return "%s vs %s" % (self.home, self.away)
