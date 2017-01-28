@@ -51,7 +51,7 @@ class Match(models.Model):
         return "%s %d - %d %s" % (self.home, self.home_score, self.away_score, self.away)
 
     def get_score_only_nums(self):
-        return "(%d - %d)" % (self.home_score, self.away_score)
+        return "%d-%d" % (self.home_score, self.away_score)
 
     def get_match_names(self):
         return "%s vs %s" % (self.home, self.away)
