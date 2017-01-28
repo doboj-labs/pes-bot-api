@@ -11,31 +11,32 @@ from random import randint
 
 slack_token = os.environ["SLACK_API_TOKEN"]
 sc = SlackClient(slack_token)
-
 channel = os.environ['SLACK_CHANEL']
-delimeter = '\n-------------------------------------------------\n'
 
 
 def send_score_message(match):
     sc.api_call(
         "chat.postMessage",
         channel=channel,
-        text="%sCurrent score is:\n %s%s" % (delimeter, match.get_score(), delimeter)
+        text="Current score is: %s" % (match.get_score())
     )
 
 
 def start_stop_match_message(match, activity):
     if activity == 'started':
-        message = "%s:soccer: Match: %s has %s%s" % (delimeter, match.get_match_names(), activity, delimeter)
+        message = ':loudspeaker: Match has %s! \t%s vs %s' % (activity, str(match.home), str(match.away))
+
     elif activity == 'ended':
-        message = "%s:sports_medal: Match: %s has %s with score:\n %s %s" % (
-            delimeter, match.get_match_names(), activity,
-            match.get_score(), delimeter)
+        message = ':loudspeaker: Match has %s! \t%s' % (activity, str(match.get_score()))
+
     sc.api_call(
         "chat.postMessage",
         channel=channel,
         text=message
     )
+
+    if (activity == 'ended'):
+        introduce_next_match(match)
 
 
 def send_goal_message(goal_getter, match):
@@ -47,8 +48,7 @@ def send_goal_message(goal_getter, match):
         goal_receiver = match.home
 
     random_messages = [
-        "%s:tada: %s scored a goal against %s :tada:%s" % (delimeter, goal_getter, goal_receiver, delimeter),
-        "%s:tada: Euro goal scored from %s to %s!!! :tada:%s" % (delimeter, goal_getter, goal_receiver, delimeter)
+        ":soccer: Goal! %s scored! Score: %s" % (goal_getter, match.get_score_only_nums())
     ]
 
     sc.api_call(
@@ -57,10 +57,9 @@ def send_goal_message(goal_getter, match):
         text=random_messages[randint(0, len(random_messages) - 1)]
     )
 
-    send_score_message(match)
-
 
 def send_goal_cancel_message(goal_getter, match):
+    # currently not used!
     if (goal_getter == 'home'):
         goal_getter = match.home
         goal_receiver = match.away
@@ -69,7 +68,8 @@ def send_goal_cancel_message(goal_getter, match):
         goal_receiver = match.home
 
     random_messages = [
-        "%s:confused: %s last goal against %s was canceled..%s" % (delimeter, goal_getter, goal_receiver, delimeter),
+        ":bangbang: Goal canceled. Score: %s" % (
+            match.get_score_only_nums())
     ]
 
     sc.api_call(
@@ -77,7 +77,21 @@ def send_goal_cancel_message(goal_getter, match):
         channel=channel,
         text=random_messages[randint(0, len(random_messages) - 1)]
     )
-    send_score_message(match)
+
+
+def introduce_next_match(match):
+    next_match = find_active_or_scheduled_match(False)
+    message = "No next match!"
+
+    if next_match:
+        message = ":fast_forward: Next match: @%s vs @%s" % (match.home.slack_name, match.away.slack_name)
+
+    sc.api_call(
+        "chat.postMessage",
+        link_names=1,
+        channel=channel,
+        text=message
+    )
 
 
 class TournamentViewSet(viewsets.ModelViewSet):
@@ -90,6 +104,7 @@ class MatchViewSet(viewsets.ModelViewSet):
     serializer_class = MatchSerializer
 
 
+# if just_active true will return only active match not scheduled
 def find_active_or_scheduled_match(just_active):
     match = None
 
