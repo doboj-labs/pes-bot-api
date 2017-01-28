@@ -35,8 +35,9 @@ def start_stop_match_message(match, activity):
         text=message
     )
 
-    if (activity == 'ended'):
-        introduce_next_match(match)
+    # if its end send next match message
+    if activity == 'ended':
+        introduce_next_match()
 
 
 def send_goal_message(goal_getter, match):
@@ -79,12 +80,12 @@ def send_goal_cancel_message(goal_getter, match):
     )
 
 
-def introduce_next_match(match):
+def introduce_next_match():
     next_match = find_active_or_scheduled_match(False)
     message = "No next match!"
 
     if next_match:
-        message = ":fast_forward: Next match: @%s vs @%s" % (match.home.slack_name, match.away.slack_name)
+        message = ":fast_forward: Next match: @%s vs @%s" % (next_match.home.slack_name, next_match.away.slack_name)
 
     sc.api_call(
         "chat.postMessage",
