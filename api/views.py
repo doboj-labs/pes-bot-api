@@ -40,46 +40,6 @@ def start_stop_match_message(match, activity):
         introduce_next_match()
 
 
-def send_goal_message(goal_getter, match):
-    if (goal_getter == 'home'):
-        goal_getter = match.home
-        goal_receiver = match.away
-    elif (goal_getter == 'away'):
-        goal_getter = match.away
-        goal_receiver = match.home
-
-    random_messages = [
-        ":soccer: Goal! *%s* scored! Score: `%s`" % (goal_getter, match.get_score_only_nums())
-    ]
-
-    sc.api_call(
-        "chat.postMessage",
-        channel=channel,
-        text=random_messages[randint(0, len(random_messages) - 1)]
-    )
-
-
-def send_goal_cancel_message(goal_getter, match):
-    # currently not used!
-    if (goal_getter == 'home'):
-        goal_getter = match.home
-        goal_receiver = match.away
-    elif (goal_getter == 'away'):
-        goal_getter = match.away
-        goal_receiver = match.home
-
-    random_messages = [
-        ":bangbang: Goal canceled. Score: `%s`" % (
-            match.get_score_only_nums())
-    ]
-
-    sc.api_call(
-        "chat.postMessage",
-        channel=channel,
-        text=random_messages[randint(0, len(random_messages) - 1)]
-    )
-
-
 def introduce_next_match():
     next_match = find_active_or_scheduled_match(False)
     message = "No next match!"
@@ -95,6 +55,49 @@ def introduce_next_match():
     )
 
 
+def send_goal_message(goal_getter, match):
+    # find out who scored home or away
+    if (goal_getter == 'home'):
+        goal_getter = match.home
+        goal_receiver = match.away
+    elif (goal_getter == 'away'):
+        goal_getter = match.away
+        goal_receiver = match.home
+
+    # currently only one message showing only goal getter
+    random_messages = [
+        ":soccer: Goal! *%s* scored! Score: `%s`" % (goal_getter, match.get_score_only_nums())
+    ]
+
+    sc.api_call(
+        "chat.postMessage",
+        channel=channel,
+        text=random_messages[randint(0, len(random_messages) - 1)]
+    )
+
+
+def send_goal_cancel_message(goal_getter, match):
+    # find out who scored home or away
+    if (goal_getter == 'home'):
+        goal_getter = match.home
+        goal_receiver = match.away
+    elif (goal_getter == 'away'):
+        goal_getter = match.away
+        goal_receiver = match.home
+
+    # currently only one message not even showing who canceled the goal
+    random_messages = [
+        ":bangbang: Goal canceled. Score: `%s`" % (
+            match.get_score_only_nums())
+    ]
+
+    sc.api_call(
+        "chat.postMessage",
+        channel=channel,
+        text=random_messages[randint(0, len(random_messages) - 1)]
+    )
+
+
 class TournamentViewSet(viewsets.ModelViewSet):
     queryset = Tournament.objects.all()
     serializer_class = TournamentSerializer
@@ -105,17 +108,18 @@ class MatchViewSet(viewsets.ModelViewSet):
     serializer_class = MatchSerializer
 
 
-# if just_active true will return only active match not scheduled
+# if just_active true method will return only active match not scheduled
 def find_active_or_scheduled_match(just_active):
     match = None
 
+    # try finding active match
     try:
-        # first find if there is an active match
-        # if no active match return first scheduled
         match = Match.objects.filter(status=MatchStatus.active).order_by('id')[0]
+        # if just active wonted return here and do not search for scheduled
         if just_active:
             if match:
                 return match
+    # if no active match find scheduled
     except:
         try:
             if not just_active:
@@ -126,6 +130,7 @@ def find_active_or_scheduled_match(just_active):
     return match
 
 
+# Find next match if exists
 @api_view(['GET'])
 def get_next_match(request):
     match = find_active_or_scheduled_match(False)
@@ -140,6 +145,8 @@ def get_next_match(request):
         return response_json_with_status_code(404, 'no match')
 
 
+# start new match if no active found and there are scheduled matches
+# stop match if there is active match
 @api_view(['GET'])
 def start_stop_match(request):
     match = find_active_or_scheduled_match(False)
@@ -163,6 +170,7 @@ def start_stop_match(request):
         return response_json_with_status_code(404, "no match found")
 
 
+# increment and decrement scores of an active match
 @api_view(['GET'])
 def increment_decrement_score(request):
     command = request.GET.get('command', '')

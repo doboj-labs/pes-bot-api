@@ -1,9 +1,7 @@
 from django.db import models
-from django.contrib.auth.models import User
 from djchoices import DjangoChoices, ChoiceItem
 
 
-# Create your models here.
 class Tournament(models.Model):
     name = models.CharField(max_length=300)
     isActive = models.BooleanField(default=False)
