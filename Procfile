@@ -1,1 +1,1 @@
-web: gunicorn pesBotApi.wsgi --log-file -
+web: gunicorn pes_bot.wsgi --log-file -
