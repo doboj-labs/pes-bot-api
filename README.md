@@ -11,8 +11,9 @@ After starting the match on pes4 players start the arduino device and push start
 Bot notifies us all in a channel that the game has started.<br>
 Every time some one scores a goal he has to press the score goal button on arduino and our bot notifies<br>
 us about the score in our pes chanel<br>
-When the match is finished players pres stop button on arduino and bot will notifie us that the match is over<br>
+When the match is finished press stop button on arduino and bot will notify us that the match is over<br>
 and tag slack users that are supposed to play the next match.
+It is possible to correct the score by canceling a goal using arduino cancel goal button.
 
 Live stream example example:
 ![Live stream example](/static/comment_example.png)
