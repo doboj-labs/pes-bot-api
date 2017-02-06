@@ -25,17 +25,17 @@
     function start_stop() {
 
         $.get("/start-stop-match")
-        location.reload().delay(100)
+        location.reload().delay(1000)
 
     }
 
     function increment(who) {
         if (who === 'home') {
             $.get("/increment-decrement-score?command=inc&team=home")
-            location.reload().delay(100)
+            location.reload().delay(1000)
         } else if (who === 'away') {
             $.get("/increment-decrement-score?command=inc&team=away")
-            location.reload().delay(100)
+            location.reload().delay(1000)
         }
 
     }
@@ -43,10 +43,10 @@
     function decrement(who) {
         if (who === 'home') {
             $.get("/increment-decrement-score?command=dec&team=home")
-            location.reload().delay(100)
+            location.reload().delay(1000)
         } else if (who === 'away') {
             $.get("/increment-decrement-score?command=dec&team=away")
-            location.reload().delay(100)
+            location.reload().delay(1000)
         }
 
     }
