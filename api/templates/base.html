@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Pes online control</title>
 
     <script
@@ -20,29 +24,29 @@
 <script>
     function start_stop() {
 
-        $("#match").load("/start-stop-match")
-        location.reload().delay(300)
+        $.get("/start-stop-match")
+        location.reload().delay(100)
 
     }
 
     function increment(who) {
         if (who === 'home') {
-            $("#match").load("/increment-decrement-score?command=inc&team=home")
-            location.reload().delay(300)
+            $.get("/increment-decrement-score?command=inc&team=home")
+            location.reload().delay(100)
         } else if (who === 'away') {
-            $("#match").load("/increment-decrement-score?command=inc&team=away")
-            location.reload().delay(300)
+            $.get("/increment-decrement-score?command=inc&team=away")
+            location.reload().delay(100)
         }
 
     }
 
     function decrement(who) {
         if (who === 'home') {
-            $("#match").load("/increment-decrement-score?command=dec&team=home")
-            location.reload().delay(300)
+            $.get("/increment-decrement-score?command=dec&team=home")
+            location.reload().delay(100)
         } else if (who === 'away') {
-            $("#match").load("/increment-decrement-score?command=dec&team=away")
-            location.reload().delay(300)
+            $.get("/increment-decrement-score?command=dec&team=away")
+            location.reload().delay(100)
         }
 
     }
@@ -67,18 +71,21 @@
         <br>
         {% if next_match.status == 'scheduled' %}
             <button type="button" class="btn btn-lg btn-success" onclick="start_stop()">Start</button>
+
         {% elif next_match.status == 'active' %}
             <button type="button" class="btn btn-lg btn-danger" onclick="start_stop()">Stop</button>
+            <hr>
+
+            <button type="button" class="btn btn-lg btn-primary" onclick="increment('home')">Home scored</button>
+            -
+            <button type="button" class="btn btn-lg btn-primary" onclick="increment('away')">Away scored</button>
+            <hr>
+            <button type="button" class="btn btn-sm btn-danger" onclick="decrement('home')">Home cancel</button>
+            -
+            <button type="button" class="btn btn-sm btn-danger" onclick="decrement('away')">Away cancel</button>
         {% endif %}
 
-        <hr>
-        <button type="button" class="btn btn-lg btn-primary" onclick="increment('home')">Home scored</button>
-        -
-        <button type="button" class="btn btn-lg btn-primary" onclick="increment('away')">Away scored</button>
-        <hr>
-        <button type="button" class="btn btn-sm btn-danger" onclick="decrement('home')">Home cancel</button>
-        -
-        <button type="button" class="btn btn-sm btn-danger" onclick="decrement('away')">Away cancel</button>
+
     {% else %}
         <h2> No match found!</h2>
     {% endif %}
