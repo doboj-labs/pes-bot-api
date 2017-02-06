@@ -7,3 +7,10 @@ dj-database-url==0.4.1
 psycopg2==2.6.1
 whitenoise==3.2
 slackclient==1.0.5
+
+
+slackbot==0.4.1
+requests==2.12.4
+six==1.10.0
+slacker==0.9.30
+websocket-client==0.40.0
