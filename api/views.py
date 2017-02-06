@@ -1,6 +1,6 @@
 from .services import response_json_with_status_code
 from rest_framework.decorators import api_view
-
+from django.shortcuts import render
 from rest_framework import viewsets
 from api.serializers import TournamentSerializer, MatchSerializer
 from api.models import Tournament, Match, MatchStatus
@@ -11,7 +11,7 @@ from random import randint
 
 slack_token = os.environ["SLACK_API_TOKEN"]
 sc = SlackClient(slack_token)
-channel = os.environ['SLACK_CHANEL']
+channel = os.environ['SLACK_CHANNEL']
 
 
 def send_score_message(match):
@@ -220,3 +220,9 @@ def increment_decrement_score(request):
 
     else:
         return response_json_with_status_code(404, 'missing parameters')
+
+
+def main_web(request):
+    next_match = find_active_or_scheduled_match(False)
+
+    return render(request, 'base.html', {"next_match": next_match})

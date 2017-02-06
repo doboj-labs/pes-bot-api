@@ -8,6 +8,7 @@ router.register(r'Tournament', views.TournamentViewSet)
 router.register(r'Match', views.MatchViewSet)
 
 urlpatterns = [
+    url(r'^web/', views.main_web),
     url(r'^admin/', admin.site.urls),
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
