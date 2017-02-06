@@ -24,29 +24,36 @@
 <script>
     function start_stop() {
 
-        $.get("/start-stop-match")
-        location.reload().delay(1000)
+        $.get("/start-stop-match", function () {
+            location.reload()
+        })
 
     }
 
     function increment(who) {
         if (who === 'home') {
-            $.get("/increment-decrement-score?command=inc&team=home")
-            location.reload().delay(1000)
+            $.get("/increment-decrement-score?command=inc&team=home", function () {
+                location.reload()
+            })
+
         } else if (who === 'away') {
-            $.get("/increment-decrement-score?command=inc&team=away")
-            location.reload().delay(1000)
+            $.get("/increment-decrement-score?command=inc&team=away", function () {
+                location.reload()
+            })
+
         }
 
     }
 
     function decrement(who) {
         if (who === 'home') {
-            $.get("/increment-decrement-score?command=dec&team=home")
-            location.reload().delay(1000)
+            $.get("/increment-decrement-score?command=dec&team=home", function () {
+                location.reload()
+            })
         } else if (who === 'away') {
-            $.get("/increment-decrement-score?command=dec&team=away")
-            location.reload().delay(1000)
+            $.get("/increment-decrement-score?command=dec&team=away", function () {
+                location.reload()
+            })
         }
 
     }
