@@ -32,21 +32,25 @@
     {% if  profiles %}
         <table class="table table-responsive table-striped">
             <tr>
+                <td>#</td>
                 <td>Name</td>
                 <td>Played</td>
                 <td>Points</td>
                 <td>Goals scored</td>
                 <td>Goals conceded</td>
+                <td>Goal difference</td>
 
             </tr>
 
             {% for profile in profiles %}
                 <tr>
+                    <td>{{ forloop.counter}}</td>
                     <td>{{ profile }}</td>
                     <td>{{ profile.played }}</td>
                     <td>{{ profile.points }}</td>
                     <td>{{ profile.goals_scored }}</td>
                     <td>{{ profile.goals_conceded }}</td>
+                    <td>{{ profile.goal_diference }}</td>
 
                 </tr>
             {% endfor %}
