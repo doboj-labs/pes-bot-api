@@ -278,9 +278,9 @@ def table_comparator(home, away):
             elif home.goals_scored < away.goals_scored:
                 return 1
             else:
-                if home.team > away.team:
+                if home.team.name > away.team.name:
                     return -1
-                elif home.team < away.team:
+                elif home.team.name < away.team.name:
                     return 1
                 else:
                     return 0
