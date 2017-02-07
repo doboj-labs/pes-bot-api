@@ -22,9 +22,28 @@ class Team(models.Model):
 class Profile(models.Model):
     team = models.OneToOneField(Team)
     slack_name = models.CharField(max_length=120)
+    points = 0
+    goals_scored = 0
+    goals_conceded = 0
+    played = 0
 
     def __str__(self):
         return "%s (%s)" % (self.slack_name, self.team)
+
+    def inc_points(self, points):
+        self.points += points
+
+    def inc_goals_scored(self, goals):
+        self.goals_scored += goals
+
+    def inc_goals_conceded(self, goals):
+        self.goals_conceded += goals
+
+    def goal_diference(self):
+        return int(self.goals_scored - self.goals_conceded)
+
+    def inc_played(self):
+        self.played += 1
 
 
 class MatchStatus(DjangoChoices):

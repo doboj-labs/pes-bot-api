@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pes online control</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</head>
+
+<script>
+
+</script>
+
+<body>
+<div class="container text-center">
+    <h3 class="text-center text-info">Table:</h3>
+    <hr>
+    {% if  profiles %}
+        <table class="table table-responsive table-striped">
+            <tr>
+                <td>Name</td>
+                <td>Played</td>
+                <td>Points</td>
+                <td>Goals scored</td>
+                <td>Goals conceded</td>
+
+            </tr>
+
+            {% for profile in profiles %}
+                <tr>
+                    <td>{{ profile }}</td>
+                    <td>{{ profile.played }}</td>
+                    <td>{{ profile.points }}</td>
+                    <td>{{ profile.goals_scored }}</td>
+                    <td>{{ profile.goals_conceded }}</td>
+
+                </tr>
+            {% endfor %}
+
+        </table>
+        <hr>
+        <p class="text-muted"> Table is not 100% accurate.
+            <br>
+            Head to head rules are excluded, we are sorting only by points, goal difference, goal
+            scored and team name.
+            <br>
+            Who ever thinks we need it 100% accurate is welcome to make a pullrequest on our sorting algorithm.
+        </p>
+    {% else %}
+        <h2> No matchs found!</h2>
+    {% endif %}
+</div>
+</body>
+</html>

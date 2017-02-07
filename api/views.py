@@ -232,3 +232,93 @@ def show_all_matches(request):
     matches = Match.objects.all().order_by('id')
     print(matches)
     return render(request, 'matches.html', {"matches": matches})
+
+
+def cmp_to_key(mycmp):
+    'Convert a cmp= function into a key= function'
+
+    class K(object):
+        def __init__(self, obj, *args):
+            self.obj = obj
+
+        def __lt__(self, other):
+            return mycmp(self.obj, other.obj) < 0
+
+        def __gt__(self, other):
+            return mycmp(self.obj, other.obj) > 0
+
+        def __eq__(self, other):
+            return mycmp(self.obj, other.obj) == 0
+
+        def __le__(self, other):
+            return mycmp(self.obj, other.obj) <= 0
+
+        def __ge__(self, other):
+            return mycmp(self.obj, other.obj) >= 0
+
+        def __ne__(self, other):
+            return mycmp(self.obj, other.obj) != 0
+
+    return K
+
+
+def table_comparator(home, away):
+    if home.points > away.points:
+        return -1
+    elif home.points < away.points:
+        return 1
+    else:
+        if home.goal_diference() > away.goal_diference():
+            return -1
+        elif home.goal_diference() < away.goal_diference():
+            return 1
+        else:
+            if home.goals_scored > away.goals_scored:
+                return -1
+            elif home.goals_scored < away.goals_scored:
+                return 1
+            else:
+                if home.team > away.team:
+                    return -1
+                elif home.team > away.team:
+                    return 1
+                else:
+                    return 0
+
+
+def table(request):
+    completed_matches = Match.objects.filter(status=MatchStatus.completed)
+    profiles = []
+
+    for match in completed_matches:
+
+        if match.home not in profiles:
+            profiles.append(match.home)
+
+        if match.away not in profiles:
+            profiles.append(match.away)
+
+        home_profile = [profile for profile in profiles if profile.id == match.home.id][0]
+        away_profile = [profile for profile in profiles if profile.id == match.away.id][0]
+
+        home_profile.inc_played()
+        away_profile.inc_played()
+
+        if match.home_score > match.away_score:
+            home_profile.inc_points(3)
+
+        elif match.home_score < match.away_score:
+            away_profile.inc_points(3)
+        else:
+            home_profile.inc_points(1)
+            away_profile.inc_points(1)
+
+        home_profile.inc_goals_scored(match.home_score)
+        home_profile.inc_goals_conceded(match.away_score)
+
+        away_profile.inc_goals_scored(match.away_score)
+        away_profile.inc_goals_conceded(match.home_score)
+
+        profiles = sorted(profiles, key=cmp_to_key(table_comparator))
+
+    return render(request, "table.html", {"profiles": profiles})
