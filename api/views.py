@@ -226,3 +226,9 @@ def main_web(request):
     next_match = find_active_or_scheduled_match(False)
 
     return render(request, 'base.html', {"next_match": next_match})
+
+
+def show_all_matches(request):
+    matches = Match.objects.all().order_by('id')
+    print(matches)
+    return render(request, 'matches.html', {"matches": matches})

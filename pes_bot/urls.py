@@ -8,6 +8,8 @@ router.register(r'Tournament', views.TournamentViewSet)
 router.register(r'Match', views.MatchViewSet)
 
 urlpatterns = [
+
+    url(r'^web/matches$', views.show_all_matches),
     url(r'^web/', views.main_web),
     url(r'^admin/', admin.site.urls),
     url(r'^', include(router.urls)),
