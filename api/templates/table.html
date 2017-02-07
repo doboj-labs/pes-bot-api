@@ -30,7 +30,7 @@
     <h3 class="text-center text-info">Table:</h3>
     <hr>
     {% if  profiles %}
-        <table class="table table-responsive table-striped">
+        <table class="table table-responsive table-condensed">
             <tr>
                 <td>#</td>
                 <td>Player</td>
@@ -40,20 +40,28 @@
                 <td>Goals scored</td>
                 <td>Goals conceded</td>
                 <td>Goal difference</td>
-
             </tr>
 
             {% for profile in profiles %}
-                <tr>
+
+                <tr style ="{{row_style}}">
                     <td>{{ forloop.counter}}</td>
-                    <td>{{ profile.slack_name }}</td>
+                    {% if  forloop.counter == 1 %}
+                      <td class ="success">
+                    {% elif  forloop.counter < 4 %}
+                        <td class ="active">
+                    {% elif  forloop.counter > 5 %}
+                        <td class ="danger">
+                    {% else %}
+                        <td>
+                    {% endif %}
+                    {{ profile.slack_name }}</td>
                     <td>{{ profile.team.name }}</td>
                     <td>{{ profile.played }}</td>
                     <td>{{ profile.points }}</td>
                     <td>{{ profile.goals_scored }}</td>
                     <td>{{ profile.goals_conceded }}</td>
                     <td>{{ profile.goal_diference }}</td>
-
                 </tr>
             {% endfor %}
 
@@ -66,6 +74,7 @@
             <br>
             Who ever thinks we need it 100% accurate is welcome to make a pullrequest on our sorting algorithm.
         </p>
+
     {% else %}
         <h2> No matchs found!</h2>
     {% endif %}
