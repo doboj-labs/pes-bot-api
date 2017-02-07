@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pes online control</title>
+    <title>Table - Pes online control</title>
 
     <script
             src="https://code.jquery.com/jquery-3.1.1.js"
@@ -33,7 +33,8 @@
         <table class="table table-responsive table-striped">
             <tr>
                 <td>#</td>
-                <td>Name</td>
+                <td>Player</td>
+                <td>Team name</td>
                 <td>Played</td>
                 <td>Points</td>
                 <td>Goals scored</td>
@@ -45,7 +46,8 @@
             {% for profile in profiles %}
                 <tr>
                     <td>{{ forloop.counter}}</td>
-                    <td>{{ profile }}</td>
+                    <td>{{ profile.slack_name }}</td>
+                    <td>{{ profile.team.name }}</td>
                     <td>{{ profile.played }}</td>
                     <td>{{ profile.points }}</td>
                     <td>{{ profile.goals_scored }}</td>
