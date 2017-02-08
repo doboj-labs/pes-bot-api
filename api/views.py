@@ -10,6 +10,8 @@ import os
 from random import randint
 import json
 
+from django.http import JsonResponse, HttpResponse
+
 slack_token = os.environ["SLACK_API_TOKEN"]
 sc = SlackClient(slack_token)
 channel = os.environ['SLACK_CHANNEL']
@@ -328,10 +330,17 @@ def table(request):
     return render(request, "table.html", {"profiles": profiles})
 
 
+def profile_to_json_string(profile):
+    profile = {'slack_name': profile.slack_name, "points": profile.points}
+    return profile
+
+
 @api_view(['GET'])
 def table_api(request):
     profiles = calculate_table()
-    print(profiles)
-    profiles = json.loads(str(profiles))
+    json_profiles = []
 
-    return response_json_with_status_code(200, profiles)
+    for profile in profiles:
+        json_profiles.append(profile_to_json_string(profile))
+
+    return response_json_with_status_code(status_code=200, response=json_profiles)
