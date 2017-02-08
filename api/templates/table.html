@@ -46,16 +46,7 @@
 
                 <tr style ="{{row_style}}">
                     <td>{{ forloop.counter}}</td>
-                    {% if  forloop.counter == 1 %}
-                      <td class ="success">
-                    {% elif  forloop.counter < 4 %}
-                        <td class ="active">
-                    {% elif  forloop.counter > 5 %}
-                        <td class ="danger">
-                    {% else %}
-                        <td>
-                    {% endif %}
-                    {{ profile.slack_name }}</td>
+                    <td>{{ profile.slack_name }}</td>
                     <td>{{ profile.team.name }}</td>
                     <td>{{ profile.played }}</td>
                     <td>{{ profile.points }}</td>
