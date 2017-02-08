@@ -43,8 +43,7 @@
             </tr>
 
             {% for profile in profiles %}
-
-                <tr style ="{{row_style}}">
+                <tr>
                     <td>{{ forloop.counter}}</td>
                     <td>{{ profile.slack_name }}</td>
                     <td>{{ profile.team.name }}</td>
