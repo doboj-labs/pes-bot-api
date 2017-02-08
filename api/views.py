@@ -294,7 +294,6 @@ def calculate_table():
     profiles = []
 
     for match in completed_matches:
-
         if match.home not in profiles:
             profiles.append(match.home)
 
@@ -322,7 +321,7 @@ def calculate_table():
         away_profile.inc_goals_scored(match.away_score)
         away_profile.inc_goals_conceded(match.home_score)
 
-        return sorted(profiles, key=cmp_to_key(table_comparator))
+    return sorted(profiles, key=cmp_to_key(table_comparator))
 
 
 def table(request):
