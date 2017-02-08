@@ -8,6 +8,7 @@ from api.models import Tournament, Match, MatchStatus
 from slackclient import SlackClient
 import os
 from random import randint
+import json
 
 slack_token = os.environ["SLACK_API_TOKEN"]
 sc = SlackClient(slack_token)
@@ -286,7 +287,7 @@ def table_comparator(home, away):
                     return 0
 
 
-def table(request):
+def calculate_table():
     completed_matches = Match.objects.filter(status=MatchStatus.completed)
     profiles = []
 
@@ -319,6 +320,18 @@ def table(request):
         away_profile.inc_goals_scored(match.away_score)
         away_profile.inc_goals_conceded(match.home_score)
 
-        profiles = sorted(profiles, key=cmp_to_key(table_comparator))
+        return sorted(profiles, key=cmp_to_key(table_comparator))
 
+
+def table(request):
+    profiles = calculate_table()
     return render(request, "table.html", {"profiles": profiles})
+
+
+@api_view(['GET'])
+def table_api(request):
+    profiles = calculate_table()
+    print(profiles)
+    profiles = json.loads(str(profiles))
+
+    return response_json_with_status_code(200, profiles)

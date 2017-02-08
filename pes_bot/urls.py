@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^start-stop-match', views.start_stop_match),
     url(r'^increment-decrement-score', views.increment_decrement_score),
     url(r'^matches', views.show_all_matches),
+    url(r'^table-api', views.table_api),
     url(r'^table', views.table),
     url(r'^', views.main_web),
 
