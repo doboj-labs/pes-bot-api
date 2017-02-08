@@ -28,13 +28,14 @@
 <body>
 <div class="container text-center">
     <h3 class="text-center text-info">All matches:</h3>
-    <hr>
     {% if  matches %}
         {% for match in matches %}
 
-            {% if forloop.counter == 1 %}
-                <p>Match day: 1</p>
+            {% if forloop.counter0|divisibleby:4 %}
+            <hr>
             {% endif %}
+
+
 
             {% if match.status == 'active' %}
                 <p class="text-center text-success">{{ match }}</p>
@@ -43,12 +44,8 @@
             {% else %}
                 <p class="text-center text-info">{{ match }}</p>
             {% endif %}
-
-            {% if forloop.counter|divisibleby:4 %}
-                <hr>
-                <p>Match day: {% widthratio forloop.counter 4 1|add:1 %}</p>
-            {% endif %}
         {% endfor %}
+
     {% else %}
         <h2> No matchs found!</h2>
     {% endif %}
