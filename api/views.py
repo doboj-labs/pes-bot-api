@@ -331,7 +331,7 @@ def table(request):
 
 
 def profile_to_json_string(profile):
-    profile = {'slack_name': profile.slack_name, "points": profile.points}
+    profile = {'slack_name': profile.slack_name, 'points': profile.points}
     return profile
 
 
