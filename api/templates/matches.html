@@ -31,12 +31,22 @@
     <hr>
     {% if  matches %}
         {% for match in matches %}
+
+            {% if forloop.counter == 1 %}
+                <p>Match day: 1</p>
+            {% endif %}
+
             {% if match.status == 'active' %}
                 <p class="text-center text-success">{{ match }}</p>
             {% elif match.status == 'completed' %}
                 <p class="text-center text-danger">{{ match }}</p>
             {% else %}
                 <p class="text-center text-info">{{ match }}</p>
+            {% endif %}
+
+            {% if forloop.counter|divisibleby:4 %}
+                <hr>
+                <p>Match day: {% widthratio forloop.counter 4 1|add:1 %}</p>
             {% endif %}
         {% endfor %}
     {% else %}
