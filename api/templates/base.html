@@ -33,6 +33,7 @@
     }
 
     function increment(who) {
+        $(".btn").addClass('disabled');
         if (who === 'home') {
             $.get("/increment-decrement-score?command=inc&team=home", function () {
                 location.reload()
@@ -48,6 +49,7 @@
     }
 
     function decrement(who) {
+        $(".btn").addClass('disabled');
         if (who === 'home') {
             $.get("/increment-decrement-score?command=dec&team=home", function () {
                 location.reload()
