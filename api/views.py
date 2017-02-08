@@ -280,9 +280,9 @@ def table_comparator(home, away):
                 return 1
             else:
                 if home.team.name > away.team.name:
-                    return -1
-                elif home.team.name < away.team.name:
                     return 1
+                elif home.team.name < away.team.name:
+                    return -1
                 else:
                     return 0
 

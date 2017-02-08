@@ -24,6 +24,8 @@
 <script>
     function start_stop() {
 
+        //disabled
+        $(".btn").addClass('disabled');
         $.get("/start-stop-match", function () {
             location.reload()
         })
