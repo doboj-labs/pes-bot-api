@@ -308,12 +308,18 @@ def calculate_table():
 
         if match.home_score > match.away_score:
             home_profile.inc_points(3)
+            home_profile.inc_wins()
+            away_profile.inc_loses()
 
         elif match.home_score < match.away_score:
             away_profile.inc_points(3)
+            away_profile.inc_wins()
+            home_profile.inc_loses()
         else:
             home_profile.inc_points(1)
             away_profile.inc_points(1)
+            home_profile.inc_draws()
+            away_profile.inc_draws()
 
         home_profile.inc_goals_scored(match.home_score)
         home_profile.inc_goals_conceded(match.away_score)

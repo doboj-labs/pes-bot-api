@@ -35,11 +35,14 @@
                 <td>#</td>
                 <td>Player</td>
                 <td>Team name</td>
+                <td>Pts</td>
                 <td>Played</td>
-                <td>Points</td>
-                <td>Goals scored</td>
-                <td>Goals conceded</td>
-                <td>Goal difference</td>
+                <td>W</td>
+                <td>D</td>
+                <td>L</td>
+                <td>GS</td>
+                <td>GC</td>
+                <td>GD</td>
             </tr>
 
             {% for profile in profiles %}
@@ -47,8 +50,11 @@
                     <td>{{ forloop.counter}}</td>
                     <td>{{ profile.slack_name }}</td>
                     <td>{{ profile.team.name }}</td>
-                    <td>{{ profile.played }}</td>
                     <td>{{ profile.points }}</td>
+                    <td>{{ profile.played }}</td>
+                    <td>{{ profile.wins }}</td>
+                    <td>{{ profile.draws }}</td>
+                    <td>{{ profile.loses }}</td>
                     <td>{{ profile.goals_scored }}</td>
                     <td>{{ profile.goals_conceded }}</td>
                     <td>{{ profile.goal_diference }}</td>
