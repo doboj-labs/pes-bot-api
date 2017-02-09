@@ -339,6 +339,10 @@ def profile_to_json_string(profile):
     profile = {'slack_name': profile.slack_name, 'points': profile.points}
     return profile
 
+def match_to_json_string(match):
+    match = {'slack_name_home': match.home.slack_name, 'slack_name_away':match.away.slack_name, 'status': match.status}
+    return match
+
 
 @api_view(['GET'])
 def table_api(request):
@@ -349,3 +353,14 @@ def table_api(request):
         json_profiles.append(profile_to_json_string(profile))
 
     return response_json_with_status_code(status_code=200, response=json_profiles)
+
+@api_view(['GET'])
+def matches_api(request):
+    matches = Match.objects.all().exclude(status=MatchStatus.completed).order_by('id')
+
+    json_matches = []
+
+    for match in matches:
+        json_matches.append(match_to_json_string(match))
+
+    return response_json_with_status_code(status_code=200, response=json_matches)
