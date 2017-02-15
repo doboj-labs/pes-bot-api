@@ -1,1 +1,1 @@
-Slack bot for our toilet app.
+Slack bot for our pes tournament app.
