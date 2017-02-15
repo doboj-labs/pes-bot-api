@@ -26,6 +26,9 @@ class Profile(models.Model):
     goals_scored = 0
     goals_conceded = 0
     played = 0
+    wins = 0
+    draws = 0
+    loses = 0
 
     def __str__(self):
         return "%s (%s)" % (self.slack_name, self.team)
@@ -44,6 +47,15 @@ class Profile(models.Model):
 
     def inc_played(self):
         self.played += 1
+    
+    def inc_wins(self):
+        self.wins += 1
+    
+    def inc_draws(self):
+        self.draws += 1
+
+    def inc_loses(self):
+        self.loses += 1
 
 
 class MatchStatus(DjangoChoices):

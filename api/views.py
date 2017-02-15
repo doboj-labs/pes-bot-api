@@ -282,9 +282,9 @@ def table_comparator(home, away):
                 return 1
             else:
                 if home.team.name > away.team.name:
-                    return -1
-                elif home.team.name < away.team.name:
                     return 1
+                elif home.team.name < away.team.name:
+                    return -1
                 else:
                     return 0
 
@@ -294,7 +294,6 @@ def calculate_table():
     profiles = []
 
     for match in completed_matches:
-
         if match.home not in profiles:
             profiles.append(match.home)
 
@@ -309,12 +308,18 @@ def calculate_table():
 
         if match.home_score > match.away_score:
             home_profile.inc_points(3)
+            home_profile.inc_wins()
+            away_profile.inc_loses()
 
         elif match.home_score < match.away_score:
             away_profile.inc_points(3)
+            away_profile.inc_wins()
+            home_profile.inc_loses()
         else:
             home_profile.inc_points(1)
             away_profile.inc_points(1)
+            home_profile.inc_draws()
+            away_profile.inc_draws()
 
         home_profile.inc_goals_scored(match.home_score)
         home_profile.inc_goals_conceded(match.away_score)
@@ -322,7 +327,7 @@ def calculate_table():
         away_profile.inc_goals_scored(match.away_score)
         away_profile.inc_goals_conceded(match.home_score)
 
-        return sorted(profiles, key=cmp_to_key(table_comparator))
+    return sorted(profiles, key=cmp_to_key(table_comparator))
 
 
 def table(request):
@@ -334,6 +339,10 @@ def profile_to_json_string(profile):
     profile = {'slack_name': profile.slack_name, 'points': profile.points}
     return profile
 
+def match_to_json_string(match):
+    match = {'slack_name_home': match.home.slack_name, 'slack_name_away':match.away.slack_name, 'status': match.status}
+    return match
+
 
 @api_view(['GET'])
 def table_api(request):
@@ -344,3 +353,14 @@ def table_api(request):
         json_profiles.append(profile_to_json_string(profile))
 
     return response_json_with_status_code(status_code=200, response=json_profiles)
+
+@api_view(['GET'])
+def matches_api(request):
+    matches = Match.objects.all().exclude(status=MatchStatus.completed).order_by('id')
+
+    json_matches = []
+
+    for match in matches:
+        json_matches.append(match_to_json_string(match))
+
+    return response_json_with_status_code(status_code=200, response=json_matches)
