@@ -98,7 +98,7 @@ def my_opponents(message):
                     'slack_name_home']
                 opponents_queue+="\n"
         
-        message.reply(":crossed_swords: Your opponents:\n%s" %(opponents_queue))
+        message.reply(":crossed_swords: Your schedule:\n%s" %(opponents_queue))
            
     else:
         message.reply("No matches!")
