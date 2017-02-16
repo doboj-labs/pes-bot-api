@@ -24,7 +24,7 @@ def hi(message):
 @respond_to('help', re.IGNORECASE)
 def help_replay(message):
     message.reply(
-        "Hi I am pes bot.\nHere is the list of commands:\n`next` to find out who plays next\n`table` to check the current ranking\n`my turn` to check when you play next")
+        "Hi I am pes bot.\nHere is the list of commands:\n`next` to find out who plays next\n`table` to check the current ranking\n`my turn` to check when you play next\n`opponents` to check your opponents till the end of tournament")
 
 
 @respond_to('table', re.IGNORECASE)
@@ -48,12 +48,10 @@ def table(message):
 
 @respond_to('my turn', re.IGNORECASE)
 def next_me(message):
-    username = message.channel._client.users[message.body['user']][u'name']
-    matches = requests.get('https://doboj-labs-pes-api.herokuapp.com/next-matches-api')
-    matches = matches.json()
-    matches = matches['response']
+    matches=get_matches()
 
     if matches:
+        username = message.channel._client.users[message.body['user']][u'name']
         counter = 0
         first_active = matches[0]['status'] == "active"
         number_icons = [':zero:', ':one:', ':two:', ':three:', ':four:', ':five:', ':six:', ':seven:', ':eight:',
@@ -86,6 +84,31 @@ def next_me(message):
     else:
         message.reply("No matches!")
 
+@respond_to('opponents', re.IGNORECASE)
+def my_opponents(message):
+    matches=get_matches()
+
+    if matches:
+        username = message.channel._client.users[message.body['user']][u'name']
+        opponents_queue = ""
+
+        for match in matches:
+            if match['slack_name_home'] == username or match['slack_name_away'] == username:
+                opponents_queue+=match['slack_name_away'] if match['slack_name_home'] == username else match[
+                    'slack_name_home']
+                opponents_queue+="\n"
+        
+        message.reply(":crossed_swords: Your opponents:\n%s" %(opponents_queue))
+           
+    else:
+        message.reply("No matches!")
+
+
+def get_matches():
+    matches = requests.get('https://doboj-labs-pes-api.herokuapp.com/next-matches-api')
+    matches = matches.json()
+    matches = matches['response']
+    return matches
 
 def main():
     bot = Bot()
