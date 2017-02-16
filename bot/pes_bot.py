@@ -24,7 +24,7 @@ def hi(message):
 @respond_to('help', re.IGNORECASE)
 def help_replay(message):
     message.reply(
-        "Hi I am pes bot.\nHere is the list of commands:\n`next` to find out who plays next\n`table` to check the current ranking\n`my turn` to check when you play next\n`opponents` to check your opponents till the end of tournament")
+        "Hi I am pes bot.\nHere is the list of commands:\n`next` to find out who plays next\n`table` to check the current ranking\n`my turn` to check when you play next\n`schedule` to check your schedule till the end of the tournament")
 
 
 @respond_to('table', re.IGNORECASE)
@@ -84,7 +84,7 @@ def next_me(message):
     else:
         message.reply("No matches!")
 
-@respond_to('opponents', re.IGNORECASE)
+@respond_to('schedule', re.IGNORECASE)
 def my_opponents(message):
     matches=get_matches()
 
