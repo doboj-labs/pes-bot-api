@@ -80,9 +80,9 @@ def next_me(message):
             message.reply(":soon: Guys will finish current game soon, prepare for a match with %s." % (opponent))
         else:
             if counter > len(number_icons):
-                message.reply("%d match(es) before you:%s" % (counter, match_queue))
+                message.reply("%d match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (counter, match_queue, opponent))
             else:
-                message.reply("%s match(es) before you:%s" % (number_icons[counter], match_queue))
+                message.reply("%s match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (number_icons[counter], match_queue,opponent))
     else:
         message.reply("No matches!")
 
