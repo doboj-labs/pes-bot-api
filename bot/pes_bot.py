@@ -71,16 +71,16 @@ def next_me(message):
                 counter += 1
 
         if counter == 0 and first_active:
-            message.reply("You are actually playing at the moment. Why are you asking me this?")
+            message.reply("\nYou are actually playing at the moment. Why are you asking me this?")
         elif counter == 0 and not first_active:
-            message.reply(":arrow_right: You are next, what are you waiting??? Your opponent is %s." % (opponent))
+            message.reply("\n:arrow_right: You are next, what are you waiting??? Your opponent is %s." % (opponent))
         elif counter == 1 and first_active:
-            message.reply(":soon: Guys will finish current game soon, prepare for a match with %s." % (opponent))
+            message.reply("\n:soon: Guys will finish current game soon, prepare for a match with %s." % (opponent))
         else:
             if counter > len(number_icons):
-                message.reply("%d match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (counter, match_queue, opponent))
+                message.reply("\n%d match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (counter, match_queue, opponent))
             else:
-                message.reply("%s match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (number_icons[counter], match_queue,opponent))
+                message.reply("\n%s match(es) before you:%s\nYou play against *%s*\nFor more details visit https://doboj-labs-pes-api.herokuapp.com/matches" % (number_icons[counter], match_queue,opponent))
     else:
         message.reply("No matches!")
 
