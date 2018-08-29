@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from django.shortcuts import render
 from rest_framework import viewsets
 from api.serializers import TournamentSerializer, MatchSerializer
-from api.models import Tournament, Match, MatchStatus
+from api.models import Tournament, Match, MatchStatus, Team, Profile
 
 from slackclient import SlackClient
 import os
@@ -233,8 +233,37 @@ def main_web(request):
 
 def show_all_matches(request):
     matches = Match.objects.all().order_by('id')
-    print(matches)
     return render(request, 'matches.html', {"matches": matches})
+
+
+def add_matches(request):
+    teams = Team.objects.all()
+    matches = Match.objects.all().order_by('id')
+    return render(request, 'addMatches.html', {"matches": matches, "teams": teams})
+
+
+@api_view(['GET'])
+def add_match(request):
+    home = request.GET.get('home', '')
+    away = request.GET.get('away', '')
+
+    team1 = Team.objects.get(name=home)
+    team2 = Team.objects.get(name=away)
+
+    profile1 = Profile.objects.get(team__pk=team1.id)
+    profile2 = Profile.objects.get(team__pk=team2.id)
+    tournament = Tournament.objects.get(isActive=True)
+
+    match = Match.objects.create(home=profile1, away=profile2, tournament=tournament)
+    match.save()
+    return response_json_with_status_code(200, 'match added')
+
+
+@api_view(['GET'])
+def delete_match(request):
+    match_id = request.GET.get('match_id', '')
+    match = Match.objects.get(id=match_id).delete()
+    return response_json_with_status_code(200, 'match deleted')
 
 
 def cmp_to_key(mycmp):
@@ -339,8 +368,9 @@ def profile_to_json_string(profile):
     profile = {'slack_name': profile.slack_name, 'points': profile.points}
     return profile
 
+
 def match_to_json_string(match):
-    match = {'slack_name_home': match.home.slack_name, 'slack_name_away':match.away.slack_name, 'status': match.status}
+    match = {'slack_name_home': match.home.slack_name, 'slack_name_away': match.away.slack_name, 'status': match.status}
     return match
 
 
@@ -353,6 +383,7 @@ def table_api(request):
         json_profiles.append(profile_to_json_string(profile))
 
     return response_json_with_status_code(status_code=200, response=json_profiles)
+
 
 @api_view(['GET'])
 def matches_api(request):
