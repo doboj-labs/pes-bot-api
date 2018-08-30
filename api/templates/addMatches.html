@@ -50,11 +50,6 @@
         <h3 class="text-center text-info">Teams:</h3>
         {% if  teams %}
             {% for team in teams %}
-
-                {% if forloop.counter0|divisibleby:4 %}
-                    <hr>
-                {% endif %}
-
                 <button type="button" class="btn btn-primary" onclick="addTeam('{{ team }}')">{{ team }}</Button>
             {% endfor %}
 
@@ -68,7 +63,7 @@
         {% if  matches %}
             {% for match in matches %}
 
-                {% if forloop.counter0|divisibleby:4 %}
+                {% if forloop.counter0|divisibleby:3 %}
                     <hr>
                 {% endif %}
 
